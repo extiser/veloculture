@@ -1,0 +1,49 @@
+- function getBigBlockData(data){
+-   data = data || {};
+-   data.link = data.link || '/';
+-   data.btnText = data.btnText || 'подробнее';
+-   data.text = data.text || '';
+-   data.title = data.title || 'заголовок';
+-   data.img = data.img || 'http://placehold.it/1920x900&text=mainpage';
+-   return data;
+- }
+
+doctype html
+html(class="no-js", lang="ru")
+
+  include ../modules/head/head
+  include ../modules/footer/footer
+  include ../modules/menu/menu
+  include ../modules/topbar/topbar
+  include ../modules/slider-main/slider-main
+  include ../modules/baner-main/baner-main
+  include ../modules/brend-main/brend-main
+  include ../modules/popular-goods/popular-goods
+  include ../modules/product/product
+  include ../modules/last-news/last-news
+  include ../modules/news-item/news-item
+  include ../modules/support-main/support-main
+  include ../modules/instagram/instagram
+
+  head
+    +head(head.defaults)
+  body.page
+    block variables
+      - var whiteMenu = false
+      //- variables
+    .off-canvas-wrapper
+      .off-canvas-wrapper-inner(data-off-canvas-wrapper)
+        //- +menu-mixin(pages, whiteMenu)
+        .off-canvas-content(data-off-canvas-content)
+          +topbar()
+          block content
+            h1 hello
+    block footer
+      +footer()
+
+      //- Main scripts. You can replace it, but I recommend you to leave it here
+      script(src='%=static=%js/main%=hash=%%=min=%.js')
+      script.
+        $(document).ready(function() {
+          $(document).foundation();
+        });

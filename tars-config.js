@@ -15,8 +15,12 @@ module.exports = {
             "pathToExternalSymbolsFile": ""
         }
     },
-    "useJsLintAndHint": true,
-    "jsPathsToConcatBeforeModulesJs": [],
+    "useJsLintAndHint": false,
+    "jsPathsToConcatBeforeModulesJs": [
+        'node_modules/jquery/dist/jquery.js',
+        'node_modules/motion-ui/motion-ui.js',
+        'node_modules/foundation-sites/dist/foundation.js',
+    ],
     "lintJsCodeBeforeModules": false,
     "jsPathsToConcatAfterModulesJs": [],
     "lintJsCodeAfterModules": false,
@@ -34,7 +38,7 @@ module.exports = {
     "notifyConfig": {
         "useNotify": true,
         "title": "TARS notification",
-        "sounds": {},
+        "sounds": "glass",
         "taskFinishedText": "Task finished at: "
     },
     "browserSyncConfig": {

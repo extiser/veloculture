@@ -1,2 +1,78 @@
 // GUI stylies of the project
 // For example, styles of the links, buttons and so on.
+
+// foundation settings
+@import "_settings.scss";
+$foundation-colors: (
+  primary: $primary-color,
+  secondary: $secondary-color,
+  success: $success-color,
+  alert: $alert-color,
+  warning: $warning-color,
+  white: $white,
+  black: $black
+) !default;
+
+// foundation styles
+@include foundation-everything($flex: true);
+
+
+.row {
+  &.full {
+    width: 100%;
+    max-width: initial;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  &.noGutter {
+    .columns {
+      padding: 0;
+    }
+  }
+}
+
+// columns modifiers
+.columns {
+  &.noGutter {
+    padding: 0;
+  }
+}
+
+.title {
+  position: relative;
+
+  margin-bottom: 20px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #4f4f4f;
+
+  font-family: $GothamProBold;
+  font-size: rem-calc(18);
+  &:after {
+    bottom: 0;
+
+    width: 68px;
+    height: 1px;
+
+    content: "";
+
+    background-color: #a5a5a5;
+
+    @include horizontal-center;
+  }
+}
+
+.button {
+  text-transform: uppercase;
+
+  font-size: rem-calc(13);
+  line-height: 1;
+}
+
+.rating {
+  color: #fad232;
+
+  font-size: rem-calc(18);
+}

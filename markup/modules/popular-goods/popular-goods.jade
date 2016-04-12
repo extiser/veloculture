@@ -1,0 +1,16 @@
+mixin popular-goods
+  .popular-goods
+    .title популярные товары
+
+    .row
+      - for (var i = 0; i < 3; i++)
+        .columns.small-12.medium-4
+          +product
+    .row
+      - for (var i = 0; i < 3; i++)
+        .columns.small-12.medium-4
+          +product
+
+    .row
+      .columns.text-center
+        a(href="#" title="").button все модели

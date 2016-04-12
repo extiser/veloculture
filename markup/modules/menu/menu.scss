@@ -1,0 +1,15 @@
+.menu
+{
+    &__toggler
+    {
+        font-size: rem-calc(23);
+
+        transition: all .4s ease-in-out;
+
+        color: $medium-green;
+        &:hover
+        {
+            color: $dark-green;
+        }
+    }
+}

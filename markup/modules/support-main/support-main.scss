@@ -1,0 +1,51 @@
+.support-main-item {
+	position: relative;
+
+	min-height: 150px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	text-align: center;
+
+	border: 2px solid $light-green;
+
+	@include breakpoint(small) {
+		margin-bottom: 30px;
+	}
+	&__content {
+		width: 100%;
+
+		@include absolute-center;
+	}
+	&__small {
+		text-transform: uppercase;
+
+		color: #aaa;
+
+		font-family: $GothamProBold;
+		font-size: rem-calc(12);
+	}
+	&__title {
+		margin: 5px 0;
+
+		text-transform: uppercase;
+
+		color: #252525;
+
+		font-family: $GothamProBold;
+		font-size: rem-calc(20);
+		line-height: 1;
+	}
+	&__link {
+		text-decoration: underline;
+
+		color: $light-green;
+
+		font-size: rem-calc(12);
+		&:hover {
+			text-decoration: none;
+
+			color: $light-green;
+		}
+	}
+}

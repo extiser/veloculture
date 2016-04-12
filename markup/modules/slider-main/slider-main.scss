@@ -1,0 +1,52 @@
+.orbit-container {
+	overflow: visible;
+}
+
+.slider-main {
+	&__control {
+		box-sizing: border-box;
+		width: 57px;
+		height: 57px;
+
+		color: $light-green;
+		border: 3px solid $light-green;
+		border-radius: 50%;
+
+		font-size: rem-calc(44);
+		&--previous {
+			left: -90px;
+			i {
+				left: 2px;
+			}
+		}
+		&--next {
+			right: -90px;
+			i {
+				right: 2px;
+			}
+		}
+		i {
+			position: absolute;
+			top: 2px;
+		}
+	}
+}
+
+.slider-main-caption {
+	text-align: center;
+
+	font-family: $Simplifica;
+	line-height: 1;
+	&__title {
+		text-transform: uppercase;
+
+		color: #777;
+
+		font-size: rem-calc(29);
+	}
+	&__model {
+		color: #dbb432;
+
+		font-size: rem-calc(20);
+	}
+}

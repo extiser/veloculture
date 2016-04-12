@@ -1,0 +1,54 @@
+.baner-main {
+	margin: rem-calc(80) 0;
+	@media screen and (max-width: 768px) {
+		margin: rem-calc(40) 0;
+	}
+}
+.baner-main-item {
+	position: relative;
+	&--bottom {
+		margin-top: rem-calc(27);
+	}
+	&--big {
+		@include breakpoint(small) {
+			margin-bottom: rem-calc(27);
+		}
+	}
+	&__caption {
+		width: 156px;
+		height: 156px;
+
+		text-align: center;
+
+		border-radius: 50%;
+		background-color: rgba(0,0,0, .41);
+
+		@include absolute-center;
+		&--big {
+			width: 187px;
+			height: 187px;
+			span {
+				width: 70%;
+
+				font-size: rem-calc(22);
+			}
+		}
+		span {
+			display: block;
+
+			width: 60%;
+			padding-bottom: 5px;
+
+			text-transform: uppercase;
+
+			color: $white;
+			border-bottom: 2px solid rgba($white, .3);
+
+			font-family: $NotCourierSans;
+			font-size: rem-calc(19);
+			line-height: 1;
+
+			@include absolute-center;
+		}
+	}
+}

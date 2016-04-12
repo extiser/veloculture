@@ -1,0 +1,31 @@
+.brend-main {
+	margin-bottom: rem-calc(80);
+	@media screen and (max-width: 768px) {
+		margin-bottom: rem-calc(40);
+	}
+}
+
+.brend-main-item {
+	margin-bottom: rem-calc(30);
+
+	border: 2px solid $light-green;
+	&__img {
+		position: relative;
+
+		height: 160px;
+		@media screen and (max-width: 768px) {
+			height: 100px;
+		}
+		img {
+			@include absolute-center;
+		}
+	}
+	&__title {
+		text-align: center;
+		text-transform: uppercase;
+
+		color: #626262;
+
+		font-size: rem-calc(16);
+	}
+}

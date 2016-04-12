@@ -1,0 +1,68 @@
+.top-bar
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    border-bottom: 3px solid $light-green;
+}
+
+.top-bar-logo
+{
+    display: block;
+
+    @include bg($top-bar-logo);
+}
+
+.top-bar-menu
+{
+    &__item
+    {
+        font-family: $GothamProBold;
+        font-size: rem-calc(12);
+
+        padding-right: 20px;
+        padding-left: 20px;
+
+        transition: all .4s ease-in-out;
+        text-transform: uppercase;
+
+        color: #959595;
+        i
+        {
+            font-size: rem-calc(14);
+
+            position: relative;
+            top: 3px;
+        }
+        &:hover
+        {
+            color: #959595 - #222;
+        }
+    }
+}
+
+.top-bar-basket
+{
+    font-size: rem-calc(22.88);
+
+    color: $medium-green;
+
+    transition: all .4s ease-in-out;
+
+    &:hover {
+    	color: $dark-green;
+    }
+}
+
+.top-bar-search
+{
+    font-size: rem-calc(20);
+
+    color: $medium-green;
+
+    transition: all .4s ease-in-out;
+
+    &:hover {
+    	color: $dark-green;
+    }
+}

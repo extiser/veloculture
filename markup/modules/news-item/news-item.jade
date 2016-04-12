@@ -1,0 +1,28 @@
+mixin news-item
+  .news-item
+    .news-item__img
+      img(src="https://veloculture.ru/uploads/news_post/3_2/main_thumb_2.jpg" alt="")
+    .news-item__title такой вот длинный  заголовок для новости.
+
+    .row.align-middle
+      .columns
+        .news-item__meta
+          i.icon-clock
+          | 2 Янв., автор
+      .columns.shrink
+        .news-item__meta
+          i.icon-chat-bubble
+          | 2
+      .columns.shrink
+        .news-item__meta
+          i.icon-heart-empty
+          | 2
+
+    p.news-item__text До конца зимы осталось 18 дней! Две с половиной недели, чтобы успеть куп...
+
+    .row.align-middle
+      .columns
+        a(href="#" title="").button.tiny читать
+      .columns.shrink
+        .share
+          i.icon-sharethis
