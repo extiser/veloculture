@@ -1,5 +1,11 @@
 .orbit-container {
 	overflow: visible;
+
+	text-align: center;
+}
+
+.orbit-image {
+	width: 90%;
 }
 
 .slider-main {
@@ -14,13 +20,13 @@
 
 		font-size: rem-calc(44);
 		&--previous {
-			left: -90px;
+			// left: -90px;
 			i {
 				left: 2px;
 			}
 		}
 		&--next {
-			right: -90px;
+			// right: -90px;
 			i {
 				right: 2px;
 			}
