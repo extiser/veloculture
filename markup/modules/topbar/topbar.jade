@@ -1,31 +1,32 @@
 mixin topbar(data)
-  .top-bar
-    .row.full.align-middle
-      .columns.shrink
-          a(href="#" data-open="offCanvas" aria-expanded="false" aria-controls="offCanvasLeft").menu__toggler
-            i.icon-align-justify
-      .columns
-        .row.align-center.align-middle
-          .columns.shrink
-            .top-bar-menu.show-for-medium
-              a(href="#" title="").top-bar-menu__item Велосипеды
-                i.icon-down-open-mini
-              a(href="#" title="").top-bar-menu__item Аксессуары
-                i.icon-down-open-mini
-              a(href="#" title="").top-bar-menu__item Бренды
-                i.icon-down-open-mini
-          .columns.shrink
-            a(href="#" title="").top-bar-logo
-          .columns.shrink
-            .top-bar-menu.show-for-medium
-              a(href="#" title="").top-bar-menu__item Блог
-              a(href="#" title="").top-bar-menu__item Поддержка
-                i.icon-down-open-mini
-              a(href="#" title="").top-bar-menu__item Контакты
-      .columns.shrink
-        .row
-          .columns.shrink
-            a(href="#" title="").top-bar-basket.icon-shopping-cart
-          .columns.shrink
-            a(href="#" title="").top-bar-search.icon-search
-          
+  div(data-sticky-container)
+    .top-bar(data-sticky data-options="marginTop:0;" style="width:100%; height: 123px;")
+      .row.full.align-middle
+        .columns.shrink
+            a(href="#" data-open="offCanvas" aria-expanded="false" aria-controls="offCanvasLeft").menu__toggler
+              i.icon-align-justify
+        .columns
+          .row.align-center.align-middle
+            .columns.shrink
+              .top-bar-menu.show-for-medium
+                a(href="#" title="").top-bar-menu__item Велосипеды
+                  i.icon-down-open-mini
+                a(href="#" title="").top-bar-menu__item Аксессуары
+                  i.icon-down-open-mini
+                a(href="#" title="").top-bar-menu__item Бренды
+                  i.icon-down-open-mini
+            .columns.shrink
+              a(href="#" title="").top-bar-logo
+            .columns.shrink
+              .top-bar-menu.show-for-medium
+                a(href="#" title="").top-bar-menu__item Блог
+                a(href="#" title="").top-bar-menu__item Поддержка
+                  i.icon-down-open-mini
+                a(href="#" title="").top-bar-menu__item Контакты
+        .columns.shrink
+          .row
+            .columns.shrink
+              a(href="#" title="").top-bar-basket.icon-shopping-cart
+            .columns.shrink
+              a(href="#" title="").top-bar-search.icon-search
+            

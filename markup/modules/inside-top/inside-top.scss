@@ -1,0 +1,69 @@
+.inside-top {
+  position: relative;
+
+  overflow: hidden;
+
+  color: $white;
+  background: url(%=staticPrefixForCss=%general/inside-top-bg.jpg) no-repeat center;
+  background-size: cover;
+  &__content {
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba($black, .54);
+    padding-bottom: 30px;
+  }
+  &__title {
+    position: relative;
+
+    width: 70%;
+    margin: auto;
+    padding-top: 40px;
+
+    text-transform: uppercase;
+
+    text-shadow: 0 5px 10px $black;
+
+    font-size: rem-calc(39);
+    line-height: 1;
+    &:after {
+      position: absolute;
+      bottom: -10px;
+
+      width: 70%;
+      height: 2px;
+
+      content: "";
+
+      background-color: $white;
+
+      @include horizontal-center;
+    }
+  }
+  &__text {
+    display: block;
+
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+
+    text-shadow: 0 0 5px $black;
+
+    font-size: rem-calc(25);
+    line-height: rem-calc(36);
+    &--hidden {
+      display: none;
+
+      text-align: left;
+    }
+  }
+  &__more {
+    text-transform: uppercase;
+
+    font-family: $GothamProBold;
+    font-size: rem-calc(16);
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

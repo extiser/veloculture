@@ -1,0 +1,30 @@
+.basket {
+	padding: 10px 15px;
+
+	border: 2px solid $light-green;
+	&__title {
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+
+		text-transform: uppercase;
+
+		border-bottom: 1px solid $light-green;
+
+		font-family: $GothamProBold;
+		font-size: rem-calc(14);
+		i {
+			position: relative;
+			top: 3px;
+
+			padding-left: 5px;
+
+			color: $medium-green;
+
+			font-size: rem-calc(18);
+		}
+	}
+	&__empty {
+		font-size: rem-calc(14);
+		color: #c5c5c5;
+	}
+}

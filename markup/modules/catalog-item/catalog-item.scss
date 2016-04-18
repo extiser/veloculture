@@ -1,0 +1,26 @@
+.catalog-item {
+  display: block;
+
+  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+  border: 2px solid $light-green;
+  &__img {
+    position: relative;
+
+    height: 235px;
+    img {
+      @include absolute-center;
+    }
+  }
+  &__title {
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #939292;
+
+    font-family: $GothamProBold;
+    font-size: rem-calc(24);
+  }
+}

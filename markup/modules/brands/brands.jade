@@ -1,22 +1,23 @@
-mixin brend-main
-  .brend-main
-    .title бренды
+mixin brands
+  - var modiffer = attributes.class || '';
+  .brands(class="#{modiffer}")
+    h1.title бренды
 
     .row.align-stretch
       - for (var i = 0; i < 4; i++)
         .columns.small-6.medium-3
-          .brend-main-item
-            .brend-main-item__img
+          .brands-item
+            .brands-item__img
               img(src="https://veloculture.ru/uploads/brand/2_2/main_thumb_2.png" alt="")
-            .brend-main-item__title linus
+            .brands-item__title linus
 
     .row.align-stretch
       - for (var i = 0; i < 4; i++)
         .columns.small-6.medium-3
-          .brend-main-item
-            .brend-main-item__img
+          .brands-item
+            .brands-item__img
               img(src="https://veloculture.ru/uploads/brand/2_2/main_thumb_2.png" alt="")
-            .brend-main-item__title linus
+            .brands-item__title linus
 
     .row
       .columns.text-center

@@ -5,11 +5,91 @@
 		[
 			[
 				"marign",
+				"margin"
+			],
+			[
+				"margin",
 				"margin-bottom"
 			],
 			[
 				"te",
-				"text-transform"
+				"text-decoration"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"sup",
+				"support-main-item"
+			],
+			[
+				"s",
+				"support-main"
+			],
+			[
+				"new",
+				"news-item"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"ra",
+				"rating__item"
+			],
+			[
+				"po",
+				"popular-goods"
+			],
+			[
+				"bre",
+				"brend-main"
+			],
+			[
+				"ali",
+				"align-stretch"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ba",
+				"baner-main-item"
+			],
+			[
+				"medi",
+				"medium-6"
+			],
+			[
+				"slide",
+				"slider-main-caption"
+			],
+			[
+				"li",
+				"light-green"
+			],
+			[
+				"tran",
+				"transparent"
+			],
+			[
+				"G",
+				"GothamProBold"
+			],
+			[
+				"top",
+				"topbar"
+			],
+			[
+				"sh",
+				"shrink"
 			],
 			[
 				"bac",
@@ -22,14 +102,6 @@
 			[
 				"rgb",
 				"rgba()"
-			],
-			[
-				"pad",
-				"padding"
-			],
-			[
-				"margin",
-				"margin-left"
 			],
 			[
 				"moda",
@@ -52,16 +124,8 @@
 				"text-transform"
 			],
 			[
-				"back",
-				"background"
-			],
-			[
 				"border-bot",
 				"border-bottom"
-			],
-			[
-				"fon",
-				"font-size"
 			],
 			[
 				"borde",
@@ -70,10 +134,6 @@
 			[
 				"marg",
 				"margin-top"
-			],
-			[
-				"slide",
-				"slideUp	.slideUp()"
 			],
 			[
 				"co",
@@ -136,10 +196,6 @@
 				"form__submit"
 			],
 			[
-				"text-",
-				"text-align"
-			],
-			[
 				"оп",
 				"оператор"
 			],
@@ -154,10 +210,6 @@
 			[
 				"border-bott",
 				"border-bottom-color"
-			],
-			[
-				"s",
-				"service-schedule"
 			],
 			[
 				"bo",
@@ -244,10 +296,6 @@
 				"value	AngularJS"
 			],
 			[
-				"top",
-				"topOfWindow"
-			],
-			[
 				"map",
 				"mapcode"
 			],
@@ -292,10 +340,6 @@
 				"font-family"
 			],
 			[
-				"ba",
-				"background"
-			],
-			[
 				"tari",
 				"tarif__item"
 			],
@@ -334,10 +378,6 @@
 			[
 				"attr",
 				"attr	.attr() - single"
-			],
-			[
-				"po",
-				"portfolio__works"
 			],
 			[
 				"pro",
@@ -474,51 +514,35 @@
 			[
 				"coy",
 				"countFreeDaysF"
-			],
-			[
-				"count",
-				"countFreeDaysB"
-			],
-			[
-				"new",
-				"newDate"
-			],
-			[
-				"parse",
-				"parseInt"
-			],
-			[
-				"lst",
-				"lastDayOfWeek"
-			],
-			[
-				"countFr",
-				"countFreeDaysBegin"
-			],
-			[
-				"date",
-				"dates"
-			],
-			[
-				"cur",
-				"curMonth"
-			],
-			[
-				"month",
-				"monthBlock"
-			],
-			[
-				"mont",
-				"monthNmb"
-			],
-			[
-				"wee",
-				"weekBlock_in"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "markup/modules/topbar/topbar.jade",
+			"settings":
+			{
+				"buffer_size": 1402,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "markup/modules/slider-main/slider-main.scss",
+			"settings":
+			{
+				"buffer_size": 672,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "markup/modules/topbar/topbar.scss",
+			"settings":
+			{
+				"buffer_size": 969,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -591,10 +615,50 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/extiser/git/veloculture/markup"
+		"/Users/extiser/git/veloculture/markup",
+		"/Users/extiser/git/veloculture/markup/modules",
+		"/Users/extiser/git/veloculture/markup/modules/slider-main",
+		"/Users/extiser/git/veloculture/markup/pages",
+		"/Users/extiser/git/veloculture/markup/static",
+		"/Users/extiser/git/veloculture/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/veloculture/markup/modules/product/product.scss",
+		"/Users/extiser/git/veloculture/markup/modules/slider-main/slider-main.scss",
+		"/Users/extiser/git/veloculture/markup/pages/index.jade",
+		"/Users/extiser/git/veloculture/markup/modules/popular-goods/popular-goods.jade",
+		"/Users/extiser/git/veloculture/markup/static/scss/_settings.scss",
+		"/Users/extiser/git/izeta-site/markup/static/scss/_izeta_settings.scss",
+		"/Users/extiser/git/veloculture/markup/modules/brend-main/brend-main.jade",
+		"/Users/extiser/git/veloculture/markup/modules/popular-goods/popular-goods.scss",
+		"/Users/extiser/git/veloculture/markup/modules/last-news/last-news.scss",
+		"/Users/extiser/git/veloculture/markup/modules/instagram/instagram.scss",
+		"/Users/extiser/git/veloculture/markup/modules/brend-main/brend-main.scss",
+		"/Users/extiser/git/veloculture/markup/modules/baner-main/baner-main.scss",
+		"/Users/extiser/git/izeta-site/markup/modules/block-big/block-big.scss",
+		"/Users/extiser/git/izeta-site/markup/modules/block-big/block-big.jade",
+		"/Users/extiser/git/veloculture/markup/modules/baner-main/baner-main.jade",
+		"/Users/extiser/git/veloculture/markup/modules/support-main/support-main.scss",
+		"/Users/extiser/git/veloculture/markup/modules/last-news/last-news.jade",
+		"/Users/extiser/git/veloculture/markup/modules/product/product.jade",
+		"/Users/extiser/git/veloculture/markup/modules/topbar/topbar.jade",
+		"/Users/extiser/git/veloculture/markup/modules/footer/footer.jade",
+		"/Users/extiser/git/veloculture/markup/pages/_layout.jade",
+		"/Users/extiser/git/veloculture/markup/modules/instagram/instagram.jade",
+		"/Users/extiser/git/veloculture/markup/modules/support-main/support-main.jade",
+		"/Users/extiser/git/veloculture/markup/modules/news-item/news-item.jade",
+		"/Users/extiser/git/veloculture/markup/modules/news-item/news-item.scss",
+		"/Users/extiser/git/veloculture/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/veloculture/markup/static/scss/fonts.scss",
+		"/Users/extiser/git/veloculture/markup/modules/slider/slider.jade",
+		"/Users/extiser/git/veloculture/markup/modules/slider-main/slider-main.jade",
+		"/Users/extiser/git/veloculture/.csscomb.json",
+		"/Users/extiser/git/veloculture/markup/static/scss/etc/icons.scss",
+		"/Users/extiser/git/veloculture/markup/modules/head/head.jade",
+		"/Users/extiser/git/veloculture/markup/modules/topbar/topbar.scss",
+		"/Users/extiser/git/veloculture/markup/modules/menu/menu.scss",
+		"/Users/extiser/git/veloculture/tars-config.js",
 		"/Users/extiser/git/svadbavo-2015/dev/sass/blocks/_wedding-magazine.scss",
 		"/Users/extiser/git/svadbavo-2015/dev/sass/blocks/_sections-of-the-magazine.scss",
 		"/Users/extiser/git/svadbavo-2015/dev/sass/base/_config.scss",
@@ -687,46 +751,11 @@
 		"/E/Git/prana-group-landing/markup/modules/tarif/tarif.jade",
 		"/E/Git/prana-group-landing/markup/modules/form/controller/sendController.js",
 		"/E/Git/prana-group-landing/builds/build_ver-Sat_Apr_18_2015_03-05-31/static/js/main32jrzr529.js",
-		"/E/Git/prana-group-landing/builds/build_ver-Sat_Apr_18_2015_03-05-31/static/js/main32jrzr529.min.js",
-		"/E/Git/prana-group-landing/markup/modules/tarif/tarif.scss",
-		"/E/Git/prana-group-landing/markup/modules/programs/programs.jade",
-		"/E/Git/prana-group-landing/markup/modules/programs/controller/programsController.js",
-		"/E/Git/prana-group-landing/markup/modules/programs/programs.scss",
-		"/E/Git/prana-group-landing/markup/static/misc/siteParam/programs.json",
-		"/E/Git/prana-group-landing/markup/modules/programs/programs.js",
-		"/E/Git/prana-group-landing/markup/modules/header/header.scss",
-		"/C/Users/Руслан/Desktop/ModalWindowEffects/ModalWindowEffects/css/component.css",
-		"/E/Git/prana-group-landing/markup/modules/footer/footer.scss",
-		"/E/Git/prana-group-landing/markup/modules/form/form.jade",
-		"/E/Git/prana-group-landing/markup/modules/tarif/controller/tarifController.js",
-		"/E/Git/prana-group-landing/markup/static/misc/sendMail.php",
-		"/E/Git/prana-group-landing/markup/modules/tarif/tarif.js",
-		"/E/Git/prana-group-landing/markup/modules/portfolio/portfolio.scss",
-		"/E/Git/prana-group-landing/markup/modules/info/info.scss",
-		"/E/Git/prana-group-landing/markup/modules/howwework/controller/howweworkController.js",
-		"/E/Git/prana-group-landing/markup/modules/howwework/howwework.scss",
-		"/C/WebServers/home/web.sushi.loc/www/files/animate.js",
-		"/E/Git/prana-group-landing/markup/modules/footer/footer.jade",
-		"/E/Git/prana-group-landing/markup/modules/header/controller/headerController.js",
-		"/E/Git/prana-group-landing/markup/modules/header/header.js",
-		"/E/Git/prana-group-landing/markup/modules/header/header.jade",
-		"/C/WebServers/home/web.sushi.loc/www/js/site.js",
-		"/E/Git/prana-group-landing/markup/modules/slider/slider.scss",
-		"/E/Git/prana-group-landing/markup/modules/map/map.scss",
-		"/E/Git/prana-group-landing/markup/modules/map/map.jade",
-		"/E/Git/prana-group-landing/markup/modules/map/controller/mapController.js",
-		"/E/Git/prana-group-landing/dev/static/js/main.js",
-		"/E/Git/prana-group-landing/markup/static/misc/siteParam/header.json",
-		"/E/Git/prana-group-landing/markup/modules/map/map.js",
-		"/E/Git/prana-group-landing/markup/pages/index.jade",
-		"/E/Git/prana-group-landing/markup/static/js/libraries/include.js",
-		"/E/Git/prana-group-landing/markup/modules/form/form.scss",
-		"/E/Git/prana-group-landing/markup/modules/form/formSend.js",
-		"/C/WebServers/tmp/!sendmail/2015-04-17_16-04-13.eml"
+		"/E/Git/prana-group-landing/builds/build_ver-Sat_Apr_18_2015_03-05-31/static/js/main32jrzr529.min.js"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -740,6 +769,14 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"sticky",
+			"/uploads/",
+			"img src",
+			">",
+			"<img",
+			"<img ",
+			"$color",
+			"color",
 			"main",
 			"ьфшт",
 			"#000",
@@ -859,15 +896,7 @@
 			"$password",
 			"slides_container",
 			"sliderBlock",
-			".slide",
-			".slides",
-			"iq.acccentre.loc",
-			"short",
-			"iq.acccentre.loc",
-			"#",
-			".title",
-			"temp/",
-			"childcontent"
+			".slide"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -875,6 +904,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"http://veloculture.ru/uploads/",
+			"img(src",
+			")",
+			"img",
 			"\n	span (765)\n	",
 			"\n	span (765)",
 			".col-xs-12.col-md-12.col-lg-11",
@@ -996,8 +1029,101 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "markup/modules/topbar/topbar.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1402,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								134,
+								134
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "markup/modules/slider-main/slider-main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 672,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								110,
+								110
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "markup/modules/topbar/topbar.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 969,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10,
+								10
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1044,7 +1170,7 @@
 	"project": "veloculture.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 114.0
 	},
 	"save_all_on_build": true,
 	"select_file":

@@ -1,0 +1,16 @@
+mixin filter
+  .filter
+    .slider(data-slider data-initial-end="83000" data-end="83000" data-start="63000")
+      span.slider-handle(data-slider-handle role="slider" tabindex="1" aria-controls="sliderOutput1")
+      span.slider-fill(data-slider-fill)
+      span.slider-handle(data-slider-handle role="slider" tabindex="1" aria-controls="sliderOutput2")
+      span.slider-handle-fixed.slider-handle-fixed--left
+      span.slider-handle-fixed.slider-handle-fixed--right
+      .slider-output
+        .row.full.noGutter.align-middle
+          .columns
+            input(type="text").slider-output__item.text-right#sliderOutput1
+          .columns.shrink
+            .slider-output__line -
+          .columns
+            input(type="text").slider-output__item#sliderOutput2

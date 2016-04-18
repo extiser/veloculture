@@ -1,0 +1,44 @@
+
+
+.slider-handle {
+	border: 2px solid $medium-gray;
+	border-radius: 50%;
+	background-color: #fff;
+	&:hover {
+		background-color: #fff;
+	}
+	&:focus {
+		outline: none;
+	}
+}
+
+.slider-handle-fixed {
+	position: absolute;
+
+	width: 5px;
+	height: 5px;
+
+	border-radius: 50%;
+	background-color: $dark-gray;
+
+	@include vertical-center;
+	&--left {
+		left: 0;
+	}
+	&--right {
+		right: 0;
+	}
+}
+
+.slider-output {
+	font-size: rem-calc(10);
+	padding-top: 10px;
+	&__item {
+		height: auto;
+		margin: 0;
+
+		border: 0;
+
+		font-size: rem-calc(10);
+	}
+}

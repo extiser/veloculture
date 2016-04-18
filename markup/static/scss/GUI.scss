@@ -64,6 +64,19 @@ $foundation-colors: (
   }
 }
 
+h1 {
+  &.title {
+    margin-top: 40px;
+
+    color: #a2a2a2;
+
+    font-size: rem-calc(24);
+    &:after {
+      background-color: $light-green;
+    }
+  }
+}
+
 .button {
   text-transform: uppercase;
 

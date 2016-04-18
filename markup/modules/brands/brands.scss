@@ -1,11 +1,14 @@
-.brend-main {
+.brands {
 	margin-bottom: rem-calc(80);
 	@media screen and (max-width: 768px) {
 		margin-bottom: rem-calc(40);
 	}
+	&--inside {
+		margin-top: rem-calc(40);
+	}
 }
 
-.brend-main-item {
+.brands-item {
 	margin-bottom: rem-calc(30);
 
 	border: 2px solid $light-green;

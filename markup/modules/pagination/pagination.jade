@@ -1,0 +1,11 @@
+mixin pagination()
+  .pagination(role="navigation" aria-label="Pagination")
+    li(aria-label="Предыдущая Страница").pagination-previous.disabled.pagination__item.pagination__item--prev
+      i.icon-angle-left
+    li.pagination__item.current
+      a(href="#" title="" aria-label="Страница 1").pagination__link 1
+    li.pagination__item
+      a(href="#" title="" aria-label="Страница 2").pagination__link 2
+    li.pagination-next.pagination__item.pagination__item--next
+      a(href="#" title="" aria-label="Следующая Страница").pagination__link
+        i.icon-angle-right

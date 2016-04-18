@@ -29,9 +29,10 @@ $CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
 @include font-face(GothamProBold, "../fonts/GothamProBold");
 @include font-face(Simplifica, "../fonts/Simplifica");
 @include font-face(NotCourierSans, "../fonts/NotCourierSans");
-
+@include font-face(GlametrixLight, "../fonts/GlametrixLight");
 
 $GothamProRegular: 'GothamProRegular', Helvetica, Arial, sans-serif;
 $GothamProBold: 'GothamProBold', Helvetica, Arial, sans-serif;
 $Simplifica: 'Simplifica', Helvetica, Arial, sans-serif;
 $NotCourierSans: 'NotCourierSans', Helvetica, Arial, sans-serif;
+$GlametrixLight: 'GlametrixLight', Helvetica, Arial, sans-serif;

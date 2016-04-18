@@ -1,0 +1,21 @@
+.pagination {
+  text-align: center;
+  &__item {
+    position: relative;
+
+    width: 40px;
+    height: 40px;
+
+    border: 2px solid $light-green;
+    background-color: $white;
+
+    line-height: 40px;
+    &:hover,
+    &.current {
+      background-color: $light-green;
+      .pagination__link {
+        color: #fff;
+      }
+    }
+  }
+}

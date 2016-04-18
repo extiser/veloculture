@@ -1,0 +1,126 @@
+.footer {
+	padding-bottom: 80px;
+	&__title {
+		position: relative;
+
+		margin-bottom: 20px;
+		padding-bottom: 15px;
+
+		text-transform: uppercase;
+
+		color: #5f5f5f;
+
+		font-family: $GothamProBold;
+		font-size: rem-calc(16);
+		&:after {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+
+			width: 50px;
+			height: 2px;
+
+			content: "";
+
+			background-color: $light-green;
+		}
+	}
+}
+
+.footer-about {
+	&__text {
+		color: #5f5f5f;
+
+		font-family: $GlametrixLight;
+		font-size: rem-calc(22);
+	}
+}
+
+.footer-info {
+	&__item {
+		display: block;
+
+		color: #5f5f5f;
+
+		font-family: $GlametrixLight;
+		font-size: rem-calc(22);
+		&:hover {
+			color: inherit;
+		}
+	}
+}
+
+.footer-subscribe {
+	&__text {
+		color: #5f5f5f;
+
+		font-family: $GlametrixLight;
+		font-size: rem-calc(22);
+		line-height: rem-calc(24);
+	}
+}
+
+.footer-subscribe-form {
+	&__field {
+		margin-top: 15px;
+		margin-bottom: 15px;
+
+		font-family: $GlametrixLight;
+		font-size: rem-calc(22);
+	}
+	&__submit {
+		background-color: $light-green;
+	}
+}
+
+.footer-contacts {
+	font-family: $GlametrixLight;
+	font-size: rem-calc(18);
+	line-height: rem-calc(19);
+	&__title {
+		color: #5f5f5f;
+
+		font-size: rem-calc(22);
+		line-height: rem-calc(22);
+	}
+	&__address {
+		margin-top: 10px;
+		margin-bottom: 5px;
+
+		color: $medium-green;
+
+		font-weight: 700;
+	}
+	&__text {
+		a {
+			color: $medium-green;
+		}
+	}
+	&__email {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+}
+
+.footer-contacts-social {
+	&__item {
+		display: block;
+
+		width: 50px;
+		height: 50px;
+		margin-right: 10px;
+
+		text-align: center;
+
+		color: $light-green;
+		border: 1px solid $light-green;
+		border-radius: 50%;
+
+		font-size: rem-calc(18);
+		line-height: 58px !important;
+		&:hover {
+			color: $white;
+			background-color: $light-green;
+		}
+	}
+}

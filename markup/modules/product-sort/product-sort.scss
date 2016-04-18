@@ -1,0 +1,22 @@
+.product-sort {
+	color: #b7b7b7;
+	padding: 15px 0;
+	&__showed {
+		font-size: rem-calc(18);
+	}
+	&__by {
+		font-size: rem-calc(13);
+		span {
+			padding-left: 5px;
+
+			color: $medium-green;
+			&:hover {
+				cursor: pointer;
+			}
+			i {
+				position: relative;
+				top: 3px;
+			}
+		}
+	}
+}
