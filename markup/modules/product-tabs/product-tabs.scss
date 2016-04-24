@@ -45,6 +45,10 @@
           padding: 5px 0;
 
           border-bottom: 1px solid #afafaf;
+          color: #686868;
+          &:first-child {
+            color: #545454;
+          }
         }
       }
     }

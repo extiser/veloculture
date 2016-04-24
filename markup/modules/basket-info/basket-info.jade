@@ -1,0 +1,38 @@
+mixin basket-info
+  .basket-info
+    .row
+      .columns
+        .input-group
+          input.input-group-field(type="text" placeholder="Номер скидочного купона")
+          .input-group-button
+            input(type="submit" value="Применить").button
+      .columns.shrink
+        .basket-info-total
+          .row.align-middle
+            .columns
+              .basket-info-total__left СУММА:
+            .columns
+              .basket-info-total__right 177,000Р
+          
+          .row
+            .columns
+              .basket-info-total__left ДОСТАВКА:
+            .columns
+              .basket-info-total__right БЕСПЛАТНО
+          
+          .row
+            .columns
+              .basket-info-total__left СКИДКА:
+            .columns
+              .basket-info-total__right НЕТ
+
+          .row
+            .columns
+              .basket-info-total__left.basket-info-total__left--cost ОБЩАЯ СУММА:
+            .columns
+              .basket-info-total__cost 177,000Р
+          
+          .row
+            .columns
+            .columns
+              a(href="#" title="").button.basket-info-total__btn ПОСЧИТАТЬ

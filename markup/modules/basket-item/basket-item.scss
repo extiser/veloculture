@@ -1,0 +1,51 @@
+.basket-item {
+  width: 90%;
+  margin-bottom: 15px;
+  padding: 15px;
+
+  border: 2px solid $light-green;
+  &__model {
+    text-transform: uppercase;
+
+    color: #626262;
+
+    font-size: rem-calc(17);
+    span {
+      display: block;
+
+      color: #b4b4b4;
+
+      font-size: rem-calc(13);
+      line-height: 1;
+    }
+  }
+  &__cost {
+    color: $light-green;
+
+    font-size: rem-calc(18);
+  }
+  &__delete {
+    color: $light-green;
+    &:hover {
+      color: $dark-green;
+    }
+  }
+}
+
+.basket-item-count {
+  &__control {
+    margin-top: 5px;
+
+    text-align: center;
+
+    color: $light-green;
+
+    font-size: rem-calc(18);
+  }
+  &__value {
+    width: 50px;
+    margin: auto;
+
+    text-align: center;
+  }
+}

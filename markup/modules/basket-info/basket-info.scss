@@ -1,0 +1,43 @@
+.basket-info {
+  width: 90%;
+  margin-top: 50px;
+  .button {
+    background-color: $light-green;
+    &:hover {
+      background-color: $dark-green;
+    }
+  }
+  .input-group {
+    width: 70%;
+  }
+}
+
+.basket-info-total {
+  min-width: 290px;
+
+  font-size: rem-calc(14);
+  &__left {
+    margin-bottom: 15px;
+
+    text-align: right;
+
+    color: $light-green;
+    &--cost {
+      margin-bottom: 0;
+      padding-top: 6px;
+    }
+  }
+  &__right {
+    margin-bottom: 15px;
+
+    color: #979797;
+  }
+  &__cost {
+    font-size: rem-calc(23);
+  }
+  &__btn {
+    margin-top: 35px;
+
+    border-radius: 5px;
+  }
+}
