@@ -1,0 +1,8 @@
+mixin product-images
+  .product-images
+    .product-images-big
+      - for (var i = 0; i < 6; i++)
+        img(src="http://placehold.it/350x200&text=big-image#{i}")
+    .product-images-small
+      - for (var i = 0; i < 6; i++)
+        img(src="http://placehold.it/86x50&text=big-image#{i}")

@@ -1,13 +1,3 @@
-- function getBigBlockData(data){
--   data = data || {};
--   data.link = data.link || '/';
--   data.btnText = data.btnText || 'подробнее';
--   data.text = data.text || '';
--   data.title = data.title || 'заголовок';
--   data.img = data.img || 'http://placehold.it/1920x900&text=mainpage';
--   return data;
-- }
-
 doctype html
 html(class="no-js", lang="ru")
 
@@ -24,6 +14,7 @@ html(class="no-js", lang="ru")
   include ../modules/news-item/news-item
   include ../modules/support-main/support-main
   include ../modules/instagram/instagram
+  include ../modules/rating/rating
 
   include ../modules/sidebar/sidebar
   include ../modules/basket/basket
@@ -34,6 +25,10 @@ html(class="no-js", lang="ru")
   include ../modules/pagination/pagination
   
   include ../modules/catalog-item/catalog-item
+
+  include ../modules/product-images/product-images
+  include ../modules/product-info/product-info
+  include ../modules/product-tabs/product-tabs
 
   head
     +head(head.defaults)

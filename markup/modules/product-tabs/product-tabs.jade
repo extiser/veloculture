@@ -1,0 +1,35 @@
+mixin product-tabs
+  .product-tabs.tabs(data-tabs id="product-tabs")
+    .product-tabs-control
+      .tabs-title.is-active.product-tabs-control__item
+        a(href="#panel1" aria-selected="true") Описание
+      .tabs-title.product-tabs-control__item
+        a(href="#panel2" aria-selected="true") Характеристики
+
+  .product-tabs-content.tabs-content(data-tabs-content="product-tabs")
+    .product-tabs-content__item.tabs-panel.is-active(id="panel1")
+      p Electra Cruiser Lux Fat Tire - самая громкая премьера коллекции 2016 года! Главное отличительное достоинство этого badboy байка – экстра-толстые покрышки 26"х3,5", которые буквально несут вас над землей. Мечтали прокатиться на облаке? – нет ничего проще!
+    .product-tabs-content__item.tabs-panel(id="panel2")
+      .row
+        .columns
+          table
+            tr
+              td Материал рамы
+              td Алюминиевая
+            tr
+              td Рулевая
+              td Стальная
+            tr
+              td Спицы
+              td небаттированные
+        .columns
+          table
+            tr
+              td Конструкция вилки
+              td Жесткая
+            tr
+              td Материал обода
+              td Алюминиевый
+            tr
+              td Передняя втулка
+              td Алюминиевая
