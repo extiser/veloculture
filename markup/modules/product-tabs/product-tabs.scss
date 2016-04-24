@@ -1,0 +1,52 @@
+
+.product-tabs {
+  margin-top: 15px;
+}
+
+.product-tabs-control {
+  padding-bottom: 10px;
+
+  text-align: center;
+
+  border-bottom: 2px solid $light-green;
+  &__item {
+    text-transform: uppercase;
+
+    font-family: $GothamProBold;
+    a {
+      padding-right: 10px;
+      padding-left: 10px;
+
+      color: #afafaf;
+      border-right: 2px solid $light-green;
+    }
+    &--last {
+      a {
+        border-right: 0;
+      }
+    }
+    &.is-active {
+      a {
+        color: $dark-green;
+      }
+    }
+  }
+}
+
+.product-tabs-content {
+  &__item {
+    p {
+      font-size: rem-calc(14);
+    }
+    table {
+      font-size: rem-calc(12);
+      tr {
+        td {
+          padding: 5px 0;
+
+          border-bottom: 1px solid #afafaf;
+        }
+      }
+    }
+  }
+}

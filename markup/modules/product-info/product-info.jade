@@ -5,7 +5,7 @@ mixin product-info
         .columns
           h1 creme lungo
           .product-info-reviews
-            .row.full.noGutter
+            .row.full.noGutter.align-middle
               .columns.shrink
                 +rating
               .columns.shrink
@@ -20,13 +20,17 @@ mixin product-info
     .product-info__bottom
       p.product-info-text Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent ac massa at ligula laoreet iaculis. Vestibulum volutpat pretium libero. Donec posuere vulputate arcu. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Quisque ut nisi.
 
-      .row
-        .columns
+      .row.full.noGutter.align-middle
+        .columns.shrink
           .product-info-count.productCount
-            .product-info-count__control.productCountMinus -
-            input(type="text" value="1").product-info-count__value.productCountValue
-            .product-info-count__control.productCountPlus +
-        .columns
+            .row.full.noGutter.align-middle
+              .columns.shrink
+                .product-info-count__control.productCountMinus -
+              .columns.shrink
+                input(type="text" value="1").product-info-count__value.productCountValue
+              .columns.shrink
+                .product-info-count__control.productCountPlus +
+        .columns.shrink
           a(href="#" title="").product-info-add-basket.button
             i.icon.icon-plus
             span в корзину

@@ -1,0 +1,22 @@
+.product-images {
+  margin-top: 40px;
+}
+
+.product-images-big {
+  margin-bottom: 10px;
+
+  border: 2px solid $light-green;
+  border-radius: 3px;
+}
+
+.product-images-small {
+  &__item {
+    padding-right: 5px;
+    padding-left: 5px;
+    img {
+      width: 100%;
+
+      border: 1px solid $light-green;
+    }
+  }
+}

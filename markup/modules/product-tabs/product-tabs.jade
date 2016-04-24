@@ -1,10 +1,13 @@
 mixin product-tabs
   .product-tabs.tabs(data-tabs id="product-tabs")
     .product-tabs-control
-      .tabs-title.is-active.product-tabs-control__item
-        a(href="#panel1" aria-selected="true") Описание
-      .tabs-title.product-tabs-control__item
-        a(href="#panel2" aria-selected="true") Характеристики
+      .row.full.noGutter.align-middle.align-center
+        .columns.shrink
+          .tabs-title.is-active.product-tabs-control__item
+            a(href="#panel1" aria-selected="true") Описание
+        .columns.shrink
+          .tabs-title.product-tabs-control__item.product-tabs-control__item--last
+            a(href="#panel2" aria-selected="true") Характеристики
 
   .product-tabs-content.tabs-content(data-tabs-content="product-tabs")
     .product-tabs-content__item.tabs-panel.is-active(id="panel1")
