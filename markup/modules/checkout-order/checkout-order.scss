@@ -1,0 +1,73 @@
+
+
+.checkout-order-content {
+  padding: 54px;
+
+  border: 1px solid $light-green;
+  &__title {
+    text-transform: uppercase;
+
+    color: #9c9c9c;
+
+    font-family: $GothamProBold;
+    font-size: rem-calc(16);
+  }
+  &__block {
+    margin-top: 25px;
+    padding-top: 10px;
+
+    border-top: 2px solid $light-green;
+  }
+  &__name {
+    margin-top: 15px;
+
+    text-transform: uppercase;
+
+    color: #626262;
+
+    font-size: rem-calc(11);
+    span {
+      color: #b4b4b4;
+    }
+  }
+  &__cost {
+    margin-top: 15px;
+
+    color: #626262;
+
+    font-size: rem-calc(14);
+    &--total {
+      color: #626262;
+
+      font-family: $GothamProBold;
+      font-size: rem-calc(17);
+    }
+  }
+  &__info {
+    padding-top: 5px;
+
+    color: $light-green;
+
+    font-size: rem-calc(14);
+  }
+  &__total {
+    margin-top: 15px;
+
+    color: $light-green;
+
+    font-family: $GothamProBold;
+    font-size: rem-calc(17);
+  }
+  &__meta {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    color: #a4a4a4;
+
+    font-size: rem-calc(12);
+  }
+  &__submit {
+    border-radius: 10px;
+    background-color: $light-green;
+  }
+}

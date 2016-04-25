@@ -1,0 +1,45 @@
+mixin checkout-details
+  .checkout-details
+    .title.title--green.title--left Детали заказа
+
+    .row
+      .columns
+        input(type="text" value="" placeholder="Ваше имя")
+        i.icon.icon-user-outline
+      .columns
+        input(type="text" value="" placeholder="Ваша фамилия")
+    
+    .row
+      .columns
+        input(type="email" value="" placeholder="E-mail")
+        i.icon.icon-envelope-o
+
+    .row
+      .columns
+        input(type="text" value="" placeholder="ВАШ НОМЕР ТЕЛЕФОНА")
+
+    .row
+      .columns
+        select(placeholder="Страна")
+          option Россия
+          option Германия
+
+    .row
+      .columns
+        input(type="text" value="" placeholder="Город")
+      .columns
+        input(type="text" value="" placeholder="Индекс")
+
+    .row
+      .columns
+        input(type="text" value="" placeholder="Адрес №1")
+        i.icon.icon-pin
+
+    .row
+      .columns
+        input(type="text" value="" placeholder="Адрес №2")
+        i.icon.icon-pin
+
+    .row
+      .columns
+        textarea(placeholder="Дополнительная информация о заказе..." rows="6")

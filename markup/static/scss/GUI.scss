@@ -33,6 +33,7 @@ $foundation-colors: (
 
 // columns modifiers
 .columns {
+  position: relative;
   &.noGutter {
     padding: 0;
   }
@@ -72,6 +73,16 @@ $foundation-colors: (
       background-color: $light-green;
     }
   }
+  &--left {
+    text-align: left;
+
+    font-size: rem-calc(16);
+    &:after {
+      left: 0 !important;
+
+      transform: initial;
+    }
+  }
   h1 {
     font-family: $GothamProBold;
     font-size: rem-calc(24);
@@ -91,4 +102,16 @@ $foundation-colors: (
 
   font-size: rem-calc(13);
   line-height: 1;
+}
+
+input {
+  text-transform: uppercase;
+}
+
+textarea {
+  text-transform: uppercase;
+}
+
+select {
+  color: #6a6a6a;
 }

@@ -1,0 +1,56 @@
+mixin checkout-order
+  .checkout-order
+    .title.title--green.title--left ВАШ ЗАКАЗ
+
+    .checkout-order-content
+      .row
+        .columns
+          .checkout-order-content__title Товар
+        .columns
+          .checkout-order-content__title.text-right Стоимость
+
+      .checkout-order-content__block
+        .row.align-middle
+          .columns
+            .checkout-order-content__name electra Amsterdam Fashion 
+              span 3i Joyride Ladies’ (2015)
+          .columns.shrink
+            .checkout-order-content__cost 65,000Р
+        .row.align-middle
+          .columns
+            .checkout-order-content__name electra Amsterdam Fashion 
+              span 3i Joyride Ladies’ (2015)
+          .columns.shrink
+            .checkout-order-content__cost 65,000Р
+
+      .checkout-order-content__block
+        .row.align-middle
+          .columns
+            .checkout-order-content__info Сумма:
+          .columns.shrink
+            .checkout-order-content__cost 130,000Р
+        .row.align-middle
+          .columns
+            .checkout-order-content__info Доставка:
+          .columns.shrink
+            .checkout-order-content__cost Бесплатно
+        .row.align-middle
+          .columns
+            .checkout-order-content__info Скидка:
+          .columns.shrink
+            .checkout-order-content__cost Нет
+
+      .checkout-order-content__block
+        .row.align-middle
+          .columns
+            .checkout-order-content__total В СУММЕ:
+          .columns.shrink
+            .checkout-order-content__cost.checkout-order-content__cost--total 130,000Р
+
+      .row
+        .columns.text-center
+          p.checkout-order-content__meta *Оплата производиться наличными курьеру. Такая услуга доступна только для жителей городов Санкт-Петербурга и Москвы. Если вы оформляете заказ из другого города, с вами свяжется оператор и уточнит детали касательно оплаты и доставки.
+
+      .row
+        .columns.text-center
+          input(type="submit" value="Оформить заказ").button.checkout-order-content__submit

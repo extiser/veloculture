@@ -3,6 +3,7 @@
     padding-bottom: 40px;
 
     border-bottom: 3px solid $light-green;
+    z-index: 2;
 }
 
 .top-bar-logo {
@@ -48,7 +49,7 @@
 
 .top-bar-menu-drop {
     position: absolute;
-    z-index: 1200;
+    z-index: 99;
     top: 121px;
     left: 0;
 
