@@ -1,10 +1,22 @@
 mixin slider-main()
-  .slider-main.orbit(role="region" aria-label="" data-orbit)
+  .slider-main.orbit(role="region" aria-label="" data-orbit data-use-m-u-i="false")
     ul.orbit-container
-      button.orbit-previous.slider-main__control.slider-main__control--previous
+      button.orbit-previous.slider-main__control.slider-main__control--previous(aria-label="previous")
+        span.show-for-sr
         i.icon-angle-left
-      button.orbit-next.slider-main__control.slider-main__control--next
+      button.orbit-next.slider-main__control.slider-main__control--next(aria-label="next")
+        span.show-for-sr
         i.icon-angle-right
+      li.orbit-slide
+        img.orbit-image(src="%=staticPrefix=%images/content/slider-1.jpg" alt="")
+        figcaption.orbit-caption.slider-main-caption 
+          .slider-main-caption__title ELECTRA TICINO
+          .slider-main-caption__model LEMONCIFFON
+      li.orbit-slide
+        img.orbit-image(src="%=staticPrefix=%images/content/slider-1.jpg" alt="")
+        figcaption.orbit-caption.slider-main-caption 
+          .slider-main-caption__title ELECTRA TICINO
+          .slider-main-caption__model LEMONCIFFON
       li.is-active.orbit-slide
         img.orbit-image(src="%=staticPrefix=%images/content/slider-1.jpg" alt="")
         figcaption.orbit-caption.slider-main-caption 
