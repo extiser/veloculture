@@ -2,7 +2,6 @@ mixin last-news
   .last-news.show-for-medium
     .title последние новости
 
-    .row
-      - for (var i = 0; i < 3; i++)
-        .columns.small-12.medium-4
-          +news-item
+    .last-news-slider
+      - for (var i = 0; i < 6; i++)
+        +news-item

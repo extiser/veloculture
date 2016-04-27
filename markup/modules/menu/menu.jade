@@ -1,2 +1,21 @@
 mixin menu()
-  .menu
+  .row.align-justify
+    .columns.shrink
+      .left-logo
+      .left-social.text-center
+        a(href="#" title="").left-social__item
+          i.icon.icon-facebook
+        a(href="#" title="").left-social__item
+          i.icon.icon-vk
+        a(href="#" title="").left-social__item
+          i.icon.icon-instagram     
+    .columns.shrink
+      a(href="#" aria-label="Close left" data-close).close-left
+        i.icon.icon-close-delete
+  .left-menu
+    a(href="#" title="").left-menu__item Велосипеды
+    a(href="#" title="").left-menu__item Аксессуары
+    a(href="#" title="").left-menu__item Бренды
+    a(href="#" title="").left-menu__item Блог
+    a(href="#" title="").left-menu__item Поддержка
+    a(href="#" title="").left-menu__item Контакты

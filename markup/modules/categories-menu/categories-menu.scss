@@ -1,0 +1,31 @@
+.categories-menu {
+  margin-top: 40px;
+  padding: 30px 50px;
+
+  border: 2px solid $light-green;
+  &__title {
+    margin-bottom: 25px;
+
+    text-transform: uppercase;
+
+    color: $light-green;
+
+    font-family: $GothamProBold;
+    font-size: rem-calc(20);
+  }
+  &__item {
+    display: block;
+
+    margin-top: 10px;
+
+    color: #909090;
+
+    font-size: rem-calc(20);
+    .icon {
+      position: relative;
+      top: 3px;
+
+      margin-right: 10px;
+    }
+  }
+}

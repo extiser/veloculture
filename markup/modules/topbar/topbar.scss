@@ -1,101 +1,106 @@
 .top-bar {
-    padding-top: 40px;
-    padding-bottom: 40px;
+  z-index: 2;
 
-    border-bottom: 3px solid $light-green;
-    z-index: 2;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  border-bottom: 3px solid $light-green;
 }
 
 .top-bar-logo {
-    display: block;
+  display: block;
 
-    @include bg($top-bar-logo);
+  @include bg($top-bar-logo);
 }
 
 .top-bar-menu {
-    &__item {
-        position: relative;
+  &__item {
+    position: relative;
 
-        display: inline-block;
+    display: inline-block;
 
-        height: 123px;
-        > a {
-            padding-right: 20px;
-            padding-left: 20px;
+    height: 123px;
+    > a {
+      padding-right: 20px;
+      padding-left: 20px;
 
-            transition: all .4s ease-in-out;
-            text-transform: uppercase;
+      transition: all .4s ease-in-out;
+      text-transform: uppercase;
 
-            color: #959595;
+      color: #959595;
 
-            font-family: $GothamProBold;
-            font-size: rem-calc(12);
-            line-height: 123px;
-        }
-        i {
-            position: relative;
-            top: 3px;
+      font-family: $GothamProBold;
+      font-size: rem-calc(12);
+      line-height: 123px;
 
-            font-size: rem-calc(14);
-        }
-        &:hover {
-            color: #959595 - #222;
-            .top-bar-menu-drop {
-                display: block;
-            }
-        }
+      @include breakpoint(medium) {
+        font-size: rem-calc(16);
+      }
     }
+    i {
+      position: relative;
+      top: 3px;
+
+      font-size: rem-calc(14);
+    }
+    &:hover {
+      color: #959595 - #222;
+      .top-bar-menu-drop {
+        display: block;
+      }
+    }
+  }
 }
 
 .top-bar-menu-drop {
-    position: absolute;
-    z-index: 99;
-    top: 121px;
-    left: 0;
+  position: absolute;
+  z-index: 99;
+  top: 121px;
+  left: 0;
 
-    display: none;
+  display: none;
 
-    width: 540px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+  width: 540px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 
-    border: 3px solid $light-green;
-    background-color: $white;
-    &__item {
-        display: block;
+  border: 3px solid $light-green;
+  background-color: $white;
+  &__item {
+    display: block;
 
-        padding: 5px 0 5px 33px;
+    padding: 5px 0 5px 33px;
 
-        text-transform: uppercase;
+    text-transform: uppercase;
 
-        color: #626262;
+    color: #626262;
 
-        font-family: $GothamProBold;
-        font-size: rem-calc(12);
-        .icon {
-            color: $light-green;
-        }
+    font-family: $GothamProBold;
+    font-size: rem-calc(12);
+    .icon {
+      color: $light-green;
     }
+  }
 }
 
 .top-bar-basket {
-    transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
 
-    color: $medium-green;
+  color: $medium-green;
 
-    font-size: rem-calc(22.88);
-    &:hover {
-        color: $dark-green;
-    }
+  font-size: rem-calc(22.88);
+  &:hover {
+    color: $dark-green;
+  }
 }
 
 .top-bar-search {
-    transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
 
-    color: $medium-green;
+  color: $medium-green;
 
-    font-size: rem-calc(20);
-    &:hover {
-        color: $dark-green;
-    }
+  font-size: rem-calc(20);
+  &:hover {
+    color: $dark-green;
+  }
 }

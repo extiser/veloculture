@@ -36,6 +36,9 @@ html(class="no-js", lang="ru")
   include ../modules/checkout-details/checkout-details
   include ../modules/checkout-order/checkout-order
 
+  include ../modules/blog-item/blog-item
+  include ../modules/categories-menu/categories-menu
+
   head
     +head(head.defaults)
   body.page
@@ -44,13 +47,14 @@ html(class="no-js", lang="ru")
       //- variables
     .off-canvas-wrapper
       .off-canvas-wrapper-inner(data-off-canvas-wrapper)
-        //- +menu-mixin(pages, whiteMenu)
+        .off-canvas.position-left(id="offCanvas" data-off-canvas)
+          +menu()
         .off-canvas-content(data-off-canvas-content)
           +topbar()
           block content
             h1 hello
-    block footer
-      +footer()
+          block footer
+            +footer()
 
       //- Main scripts. You can replace it, but I recommend you to leave it here
       script(src='%=static=%js/main%=hash=%%=min=%.js')

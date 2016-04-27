@@ -84,6 +84,8 @@ $foundation-colors: (
     }
   }
   h1 {
+    margin-top: 40px;
+
     font-family: $GothamProBold;
     font-size: rem-calc(24);
   }
@@ -106,6 +108,11 @@ $foundation-colors: (
 
 input {
   text-transform: uppercase;
+  &:disabled {
+    &:hover {
+      cursor: inherit;
+    }
+  }
 }
 
 textarea {
@@ -114,4 +121,10 @@ textarea {
 
 select {
   color: #6a6a6a;
+}
+
+a {
+  &:click {
+    color: $light-green;
+  }
 }

@@ -1,6 +1,16 @@
 .last-news {
-	margin-bottom: rem-calc(80);
-	@media screen and (max-width: 768px) {
-		margin-bottom: rem-calc(40);
-	}
+  margin-bottom: rem-calc(80);
+  @media screen and (max-width: 768px) {
+    margin-bottom: rem-calc(40);
+  }
+}
+
+.last-news-slider {
+  width: 100%;
+}
+
+.slick-dots li button {
+  &:before {
+    font-size: rem-calc(22);
+  }
 }

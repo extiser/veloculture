@@ -1,16 +1,259 @@
 mixin filter
   .filter
-    .slider(data-slider data-initial-end="83000" data-end="83000" data-start="63000")
-      span.slider-handle(data-slider-handle role="slider" tabindex="1" aria-controls="sliderOutput1")
-      span.slider-fill(data-slider-fill)
-      span.slider-handle(data-slider-handle role="slider" tabindex="1" aria-controls="sliderOutput2")
-      span.slider-handle-fixed.slider-handle-fixed--left
-      span.slider-handle-fixed.slider-handle-fixed--right
-      .slider-output
-        .row.full.noGutter.align-middle
-          .columns
-            input(type="text").slider-output__item.text-right#sliderOutput1
-          .columns.shrink
-            .slider-output__line -
-          .columns
-            input(type="text").slider-output__item#sliderOutput2
+    .filter__title категории
+   
+    .filter-block
+      .filter-block__title ЦЕНА
+      .slider(data-slider data-initial-end="83000" data-end="83000" data-start="63000")
+        span.slider-handle(data-slider-handle role="slider" tabindex="1" aria-controls="sliderOutput1")
+        span.slider-fill(data-slider-fill)
+        span.slider-handle(data-slider-handle role="slider" tabindex="1" aria-controls="sliderOutput2")
+        span.slider-handle-fixed.slider-handle-fixed--left
+        span.slider-handle-fixed.slider-handle-fixed--right
+        .slider-output
+          .row.full.noGutter.align-middle
+            .columns
+              input(type="text" disabled).slider-output__item.text-right#sliderOutput1
+            .columns.shrink
+              .slider-output__line -
+            .columns
+              input(type="text" disabled).slider-output__item#sliderOutput2
+
+    .filter-block
+      .filter-block__title Бренды
+
+      .checkbox
+        label
+          i.icon.icon-circle-o
+          input(type="checkbox" name="brand" value="Electra")
+          span Electra
+
+      .checkbox
+        label
+          i.icon.icon-circle-o
+          input(type="checkbox" name="brand" value="Creme")
+          span Creme
+
+      .checkbox
+        label
+          i.icon.icon-circle-o
+          input(type="checkbox" name="brand" value="PoloandBike")
+          span PoloandBike
+
+      .checkbox
+        label
+          i.icon.icon-circle-o
+          input(type="checkbox" name="brand" value="Schwinn")
+          span Schwinn
+
+      .checkbox
+        label
+          i.icon.icon-circle-o
+          input(type="checkbox" name="brand" value="Linus")
+          span Linus
+
+      .checkbox
+        label 
+          i.icon.icon-circle-o
+          input(type="checkbox" name="brand" value="Nerve")
+          span Nerve
+
+    .filter-block
+      .filter-block__title ЦВЕТ
+
+      .row
+        .columns
+          .checkbox.checkbox--colored
+            label
+              i.icon.icon--black
+              input(type="checkbox" name="color" value="black")
+              span Черный
+
+          .checkbox.checkbox--colored
+            label
+              i.icon.icon--gray
+              input(type="checkbox" name="color" value="gray")
+              span Серый
+
+          .checkbox.checkbox--colored
+            label
+              i.icon.icon--white
+              input(type="checkbox" name="color" value="white")
+              span Белый
+
+          .checkbox.checkbox--colored
+            label
+              i.icon.icon--red
+              input(type="checkbox" name="color" value="red")
+              span Красный
+        .columns
+          .checkbox.checkbox--colored
+            label
+              i.icon.icon--orange
+              input(type="checkbox" name="color" value="orange")
+              span Оранжевый
+
+          .checkbox.checkbox--colored
+            label
+              i.icon.icon--yellow
+              input(type="checkbox" name="color" value="yellow")
+              span Желтый
+
+          .checkbox.checkbox--colored
+            label
+              i.icon.icon--green
+              input(type="checkbox" name="color" value="green")
+              span Зеленый
+
+          .checkbox.checkbox--colored
+            label
+              i.icon.icon--blue
+              input(type="checkbox" name="color" value="blue")
+              span Синий
+
+    .filter-block
+      .filter-block__title Возраст
+
+      .row
+        .columns.shrink
+          .checkbox
+            label
+              i.icon.icon-circle-o
+              input(type="checkbox" name="age" value="Детский")
+              span Детский
+          .checkbox
+            label
+              i.icon.icon-circle-o
+              input(type="checkbox" name="age" value="Подростковый")
+              span Подростковый
+        .columns
+          .checkbox
+            label
+              i.icon.icon-circle-o
+              input(type="checkbox" name="age" value="Взрослый")
+              span Взрослый
+
+    .filter-block
+      .filter-block__title Возраст
+
+      .checkbox.checkbox--text
+        label
+          input(type="checkbox" name="age" value="XS")
+          span XS
+      .checkbox.checkbox--text
+        label
+          input(type="checkbox" name="age" value="S")
+          span S
+      .checkbox.checkbox--text
+        label
+          input(type="checkbox" name="age" value="M")
+          span M
+      .checkbox.checkbox--text
+        label
+          input(type="checkbox" name="age" value="L")
+          span L
+      .checkbox.checkbox--text
+        label
+          input(type="checkbox" name="age" value="XL")
+          span XL
+      .checkbox.checkbox--text
+        label
+          input(type="checkbox" name="age" value="XXL")
+          span XXL
+
+    .filter-block
+      .filter-block__title Размер колес
+
+      .checkbox.checkbox--text
+        label
+          input(type="checkbox" name="wheel-size" value="10")
+          span 10
+      .checkbox.checkbox--text
+        label
+          input(type="checkbox" name="wheel-size" value="12")
+          span 12
+      .checkbox.checkbox--text
+        label
+          input(type="checkbox" name="wheel-size" value="16")
+          span 16
+      .checkbox.checkbox--text
+        label
+          input(type="checkbox" name="wheel-size" value="18")
+          span 18
+      .checkbox.checkbox--text
+        label
+          input(type="checkbox" name="wheel-size" value="20")
+          span 20
+      .checkbox.checkbox--text
+        label
+          input(type="checkbox" name="wheel-size" value="24")
+          span 24
+      .checkbox.checkbox--text
+        label
+          input(type="checkbox" name="wheel-size" value="26")
+          span 26
+      .checkbox.checkbox--text
+        label
+          input(type="checkbox" name="wheel-size" value="28")
+          span 28
+      .checkbox.checkbox--text
+        label
+          input(type="checkbox" name="wheel-size" value="29")
+          span 29
+
+    .filter-block
+      .filter-block__title Количество скоростей
+
+      .checkbox.checkbox--text
+        label
+          input(type="checkbox" name="wheel-size" value="3i")
+          span 3i
+      .checkbox.checkbox--text
+        label
+          input(type="checkbox" name="wheel-size" value="5i")
+          span 5i
+      .checkbox.checkbox--text
+        label
+          input(type="checkbox" name="wheel-size" value="7i")
+          span 7i
+      .checkbox.checkbox--text
+        label
+          input(type="checkbox" name="wheel-size" value="8i")
+          span 8i
+      .checkbox.checkbox--text
+        label
+          input(type="checkbox" name="wheel-size" value="7D")
+          span 7D
+      .checkbox.checkbox--text
+        label
+          input(type="checkbox" name="wheel-size" value="8D")
+          span 8D
+      .checkbox.checkbox--text
+        label
+          input(type="checkbox" name="wheel-size" value="21D")
+          span 21D
+      .checkbox.checkbox--text
+        label
+          input(type="checkbox" name="wheel-size" value="24D")
+          span 24D
+
+    .filter-block
+      .filter-block__title Система передач
+
+      .checkbox
+        label
+          i.icon.icon-circle-o
+          input(type="checkbox" name="brand" value="планетарная втулка")
+          span планетарная втулка
+
+      .checkbox
+        label
+          i.icon.icon-circle-o
+          input(type="checkbox" name="brand" value="классическая система")
+          span классическая система
+
+      .checkbox
+        label
+          i.icon.icon-circle-o
+          input(type="checkbox" name="brand" value="односкоростная")
+          span односкоростная

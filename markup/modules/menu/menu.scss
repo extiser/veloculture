@@ -1,15 +1,71 @@
-.menu
-{
-    &__toggler
-    {
-        font-size: rem-calc(23);
+.menu-toggler {
+  transition: all .4s ease-in-out;
 
-        transition: all .4s ease-in-out;
+  color: $medium-green;
 
-        color: $medium-green;
-        &:hover
-        {
-            color: $dark-green;
-        }
+  font-size: rem-calc(23);
+  &:hover {
+    color: $dark-green;
+  }
+}
+
+.off-canvas {
+  position: fixed;
+
+  box-sizing: border-box;
+  height: 100%;
+  padding: 40px 20px;
+}
+
+.menu {
+  background-color: #252525;
+}
+
+.left-logo {
+  @include bg($left-bar-logo);
+}
+
+.close-left {
+  color: #7f7f7f;
+
+  font-size: rem-calc(18);
+  &:hover {
+    color: $light-green;
+  }
+}
+
+.left-social {
+  margin-top: 10px;
+  &__item {
+    margin-right: 5px;
+
+    color: #7f7f7f;
+
+    font-size: rem-calc(14);
+    &:hover {
+      color: $light-green;
     }
+  }
+}
+
+.left-menu {
+  margin-top: 40px;
+  padding: 0 20px;
+  &__item {
+    display: block;
+
+    height: 60px;
+
+    text-transform: uppercase;
+
+    color: #959595;
+    border-bottom: 1px solid #a6a6a6;
+
+    font-family: $GothamProBold;
+    font-size: rem-calc(18);
+    line-height: 60px;
+    &:hover {
+      color: $light-green;
+    }
+  }
 }

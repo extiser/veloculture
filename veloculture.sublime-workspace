@@ -4,20 +4,104 @@
 		"selected_items":
 		[
 			[
-				"marign",
-				"margin-bottom"
+				"pad",
+				"padding-bottom"
 			],
 			[
-				"text",
-				"text-transform"
+				"marign",
+				"margin-top"
+			],
+			[
+				"margn",
+				"margin-top"
 			],
 			[
 				"fon",
-				"font-family"
+				"font-size"
 			],
 			[
-				"pad",
-				"padding-bottom"
+				"te",
+				"text-transform"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"checkout-order-content__",
+				"checkout-order-content__block"
+			],
+			[
+				"che",
+				"checkout-order-content"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"in",
+				"initial"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"al",
+				"align-center"
+			],
+			[
+				"bas",
+				"basket-info-total"
+			],
+			[
+				"ba",
+				"basket"
+			],
+			[
+				"bask",
+				"basket-item"
+			],
+			[
+				"b",
+				"basket-item"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"pd",
+				"padding-top"
+			],
+			[
+				"lig",
+				"light-green"
+			],
+			[
+				"align",
+				"align-middle"
+			],
+			[
+				"pro",
+				"product-tabs-content"
+			],
+			[
+				"no",
+				"noGutter"
+			],
+			[
+				"po",
+				"product-info"
+			],
+			[
+				"pr",
+				"product-info"
 			],
 			[
 				"ca",
@@ -26,10 +110,6 @@
 			[
 				"pa",
 				"pagination__link	(pagination.jade)"
-			],
-			[
-				"te",
-				"text-align"
 			],
 			[
 				"pag",
@@ -76,26 +156,6 @@
 				"slider-output"
 			],
 			[
-				"in",
-				"inherit"
-			],
-			[
-				"ba",
-				"basket"
-			],
-			[
-				"pro",
-				"product-sort"
-			],
-			[
-				"pr",
-				"product-sort"
-			],
-			[
-				"margin",
-				"margin-top"
-			],
-			[
 				"marig",
 				"margin-top"
 			],
@@ -126,10 +186,6 @@
 			[
 				"ra",
 				"rating__item"
-			],
-			[
-				"po",
-				"popular-goods"
 			],
 			[
 				"bre",
@@ -236,10 +292,6 @@
 				"border-bottom"
 			],
 			[
-				"no",
-				"no-repeat"
-			],
-			[
 				"se",
 				"service-car"
 			],
@@ -290,10 +342,6 @@
 			[
 				"hi",
 				"hidden-xs"
-			],
-			[
-				"col",
-				"col-lg-offset-1"
 			],
 			[
 				"doc",
@@ -370,10 +418,6 @@
 			[
 				"req",
 				"request"
-			],
-			[
-				"padd",
-				"padding"
 			],
 			[
 				"add",
@@ -470,79 +514,11 @@
 			[
 				"min-",
 				"min-width"
-			],
-			[
-				"wi",
-				"width"
-			],
-			[
-				"slider",
-				"sliderController"
-			],
-			[
-				"sr",
-				"src"
-			],
-			[
-				"site",
-				"siteParam"
-			],
-			[
-				"header",
-				"headerController"
-			],
-			[
-				"bord",
-				"border"
-			],
-			[
-				"text-tr",
-				"text-transform"
-			],
-			[
-				"$sc",
-				"$scope	AngularJS"
-			],
-			[
-				"so",
-				"social-group__item"
-			],
-			[
-				"data",
-				"data-item"
-			],
-			[
-				"font-",
-				"font-size"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "markup/modules/topbar/topbar.jade",
-			"settings":
-			{
-				"buffer_size": 1402,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "markup/modules/topbar/topbar.scss",
-			"settings":
-			{
-				"buffer_size": 969,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "markup/static/scss/etc/icons.scss",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -617,24 +593,55 @@
 	[
 		"/Users/extiser/git/veloculture/markup",
 		"/Users/extiser/git/veloculture/markup/modules",
-		"/Users/extiser/git/veloculture/markup/modules/topbar",
+		"/Users/extiser/git/veloculture/markup/modules/checkout-order",
 		"/Users/extiser/git/veloculture/markup/pages",
 		"/Users/extiser/git/veloculture/markup/static",
-		"/Users/extiser/git/veloculture/markup/static/scss",
-		"/Users/extiser/git/veloculture/markup/static/scss/etc"
+		"/Users/extiser/git/veloculture/markup/static/scss"
 	],
 	"file_history":
 	[
-		"/Users/extiser/git/veloculture/markup/static/scss/etc/icons.scss",
+		"/Users/extiser/git/veloculture/markup/pages/checkout.jade",
+		"/Users/extiser/git/veloculture/markup/modules/checkout-order/checkout-order.jade",
+		"/Users/extiser/git/veloculture/markup/modules/checkout-order/checkout-order.scss",
+		"/Users/extiser/git/veloculture/markup/modules/checkout-details/checkout-details.scss",
+		"/Users/extiser/git/veloculture/markup/modules/checkout-details/checkout-details.jade",
+		"/Users/extiser/git/veloculture/markup/static/scss/_settings.scss",
+		"/Users/extiser/git/veloculture/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/veloculture/markup/modules/topbar/topbar.scss",
+		"/Users/extiser/git/veloculture/markup/pages/_layout.jade",
+		"/Users/extiser/git/veloculture/markup/pages/basket.jade",
+		"/Users/extiser/git/veloculture/markup/modules/basket-info/basket-info.jade",
+		"/Users/extiser/git/veloculture/markup/modules/basket-info/basket-info.scss",
+		"/Users/extiser/git/veloculture/markup/modules/basket-item/basket-item.jade",
+		"/Users/extiser/git/veloculture/markup/modules/basket-item/basket-item.scss",
 		"/Users/extiser/git/veloculture/markup/pages/catalog.jade",
+		"/Users/extiser/git/veloculture/markup/modules/head/head.jade",
+		"/Users/extiser/git/veloculture/markup/modules/product-tabs/product-tabs.scss",
+		"/Users/extiser/git/veloculture/markup/modules/product-tabs/product-tabs.jade",
+		"/Users/extiser/git/veloculture/markup/modules/product-info/product-info.jade",
+		"/Users/extiser/git/veloculture/markup/modules/product-info/product-info.scss",
+		"/Users/extiser/git/veloculture/markup/modules/rating/rating.scss",
+		"/Users/extiser/git/veloculture/markup/modules/product-images/product-images.jade",
+		"/Users/extiser/git/veloculture/markup/modules/product-images/product-images.scss",
+		"/Users/extiser/git/veloculture/markup/static/scss/normalize.scss",
+		"/Users/extiser/git/veloculture/markup/modules/topbar/topbar.jade",
+		"/Users/extiser/git/veloculture/markup/modules/product-info/product-info.js",
+		"/Users/extiser/git/izeta-site/markup/modules/modal/modal.js",
+		"/Users/extiser/git/veloculture/markup/pages/product-card.jade",
+		"/Users/extiser/git/veloculture/markup/modules/product/product.jade",
+		"/Users/extiser/git/veloculture/markup/modules/rating/rating.jade",
+		"/Users/extiser/git/veloculture/markup/modules/product-images/product-images.js",
+		"/Users/extiser/git/veloculture/markup/static/scss/mixins.scss",
+		"/Users/extiser/git/izeta-site/markup/pages/_layout.jade",
+		"/Users/extiser/git/veloculture/tars-config.js",
+		"/Users/extiser/git/veloculture/node_modules/slick-carousel/slick/slick.scss",
+		"/Users/extiser/git/veloculture/node_modules/slick-carousel/slick/slick-theme.scss",
+		"/Users/extiser/git/veloculture/markup/static/scss/etc/icons.scss",
 		"/Users/extiser/git/veloculture/markup/modules/catalog-item/catalog-item.jade",
 		"/Users/extiser/git/veloculture/markup/modules/catalog-item/catalog-item.scss",
-		"/Users/extiser/git/veloculture/markup/static/scss/GUI.scss",
-		"/Users/extiser/git/veloculture/markup/pages/_layout.jade",
 		"/Users/extiser/git/veloculture/markup/modules/brands/brands.jade",
 		"/Users/extiser/git/veloculture/markup/modules/pagination/pagination.jade",
 		"/Users/extiser/git/veloculture/markup/modules/pagination/pagination.scss",
-		"/Users/extiser/git/veloculture/markup/static/scss/_settings.scss",
 		"/Users/extiser/git/veloculture/markup/modules/inside-top/inside-top.jade",
 		"/Users/extiser/git/veloculture/markup/modules/inside-top/inside-top.scss",
 		"/Users/extiser/git/veloculture/markup/modules/inside-top/inside-top.js",
@@ -675,9 +682,7 @@
 		"/Users/extiser/git/insight/tars/markup/modules/articles/articles.jade",
 		"/Users/extiser/git/veloculture/markup/modules/footer/footer.jade",
 		"/Users/extiser/git/veloculture/markup/modules/footer/footer.scss",
-		"/Users/extiser/git/veloculture/markup/modules/topbar/topbar.jade",
 		"/Users/extiser/git/veloculture/markup/modules/slider-main/slider-main.scss",
-		"/Users/extiser/git/veloculture/markup/modules/topbar/topbar.scss",
 		"/Users/extiser/git/veloculture/markup/modules/product/product.scss",
 		"/Users/extiser/git/veloculture/markup/modules/popular-goods/popular-goods.jade",
 		"/Users/extiser/git/izeta-site/markup/static/scss/_izeta_settings.scss",
@@ -692,7 +697,6 @@
 		"/Users/extiser/git/veloculture/markup/modules/baner-main/baner-main.jade",
 		"/Users/extiser/git/veloculture/markup/modules/support-main/support-main.scss",
 		"/Users/extiser/git/veloculture/markup/modules/last-news/last-news.jade",
-		"/Users/extiser/git/veloculture/markup/modules/product/product.jade",
 		"/Users/extiser/git/veloculture/markup/modules/instagram/instagram.jade",
 		"/Users/extiser/git/veloculture/markup/modules/support-main/support-main.jade",
 		"/Users/extiser/git/veloculture/markup/modules/news-item/news-item.jade",
@@ -700,9 +704,7 @@
 		"/Users/extiser/git/veloculture/markup/modules/slider/slider.jade",
 		"/Users/extiser/git/veloculture/markup/modules/slider-main/slider-main.jade",
 		"/Users/extiser/git/veloculture/.csscomb.json",
-		"/Users/extiser/git/veloculture/markup/modules/head/head.jade",
 		"/Users/extiser/git/veloculture/markup/modules/menu/menu.scss",
-		"/Users/extiser/git/veloculture/tars-config.js",
 		"/Users/extiser/git/svadbavo-2015/dev/sass/blocks/_wedding-magazine.scss",
 		"/Users/extiser/git/svadbavo-2015/dev/sass/blocks/_sections-of-the-magazine.scss",
 		"/Users/extiser/git/svadbavo-2015/dev/sass/base/_config.scss",
@@ -725,34 +727,7 @@
 		"/Users/extiser/git/svadbavo-2015/dev/sass/blocks/_advertising-calendar.scss",
 		"/Users/extiser/git/svadbavo-2015/dev/sass/blocks/_advertise-counters.scss",
 		"/Users/extiser/git/svadbavo-2015/dev/sass/blocks/_about.scss",
-		"/Users/extiser/Desktop/tabs.html",
-		"/Users/extiser/Desktop/tabs.js",
-		"/Users/extiser/git/svadbavo-2015/dev/sass/blocks/_registration.scss",
-		"/Users/extiser/git/svadbavo-2015/dev/template/partials/scripts.jade",
-		"/Users/extiser/git/svadbavo-2015/dev/template/blocks/cabinet-photo.jade",
-		"/Users/extiser/git/svadbavo-2015/dev/sass/blocks/_cabinet-photo.scss",
-		"/Users/extiser/git/svadbavo-2015/dev/sass/screen.scss",
-		"/Users/extiser/git/svadbavo-2015/dev/template/registration.jade",
-		"/Users/extiser/git/svadbavo-2015/dev/template/blocks/registration.jade",
-		"/Users/extiser/git/svadbavo-2015/dev/template/blocks/firm-card-top.jade",
-		"/Users/extiser/git/svadbavo-2015/dev/sass/blocks/_firm-card-top.scss",
-		"/Users/extiser/git/svadbavo-2015/dev/template/blocks/list-contacts.jade",
-		"/Users/extiser/git/svadbavo-2015/dev/sass/blocks/_list-contacts.scss",
-		"/Users/extiser/git/main.min.css",
-		"/Users/extiser/git/svadbavo-2015/dev/template/catalog-firms.jade",
-		"/Users/extiser/git/svadbavo-2015/dev/template/blocks/catalog-tags.jade",
-		"/Users/extiser/git/svadbavo-2015/dev/sass/blocks/_catalog-tags.scss",
-		"/Users/extiser/git/svadbavo-2015/dev/sass/blocks/_filter.scss",
-		"/Users/extiser/git/svadbavo-2015/dev/sass/blocks/_catalog-firms-list.scss",
-		"/Users/extiser/git/svadbavo-2015/dev/template/blocks/catalog-firms-list.jade",
-		"/Users/extiser/git/svadbavo-2015/dev/template/blocks/filter.jade",
-		"/Users/extiser/git/svadbavo-2015/dev/template/blocks/sections-of-the-magazine.jade",
-		"/E/Git/svadbavo-2015/dev/sass/blocks/_seo-text.scss",
-		"/E/Git/svadbavo-2015/dev/sass/partials/_footer.scss",
-		"/E/Git/svadbavo-2015/dev/sass/screen.scss",
-		"/E/Git/svadbavo-2015/dev/js/app.js",
-		"/E/Git/svadbavo-2015/dev/template/main.jade",
-		"/E/Git/svadbavo-2015/dev/sass/blocks/_question.scss"
+		"/Users/extiser/Desktop/tabs.html"
 	],
 	"find":
 	{
@@ -1031,102 +1006,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "markup/modules/topbar/topbar.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1402,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "markup/modules/topbar/topbar.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 969,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "markup/static/scss/etc/icons.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

@@ -144,7 +144,7 @@ $code-font-weight: $global-weight-normal;
 $code-background: $light-gray;
 $code-border: 1px solid $medium-gray;
 $code-padding: rem-calc(2 5 1);
-$anchor-color: $primary-color;
+$anchor-color: $light-green;
 $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
@@ -352,7 +352,7 @@ $input-font-family: inherit;
 $input-font-size: rem-calc(14);
 $input-background: $white;
 $input-background-focus: $white;
-$input-background-disabled: $light-gray;
+$input-background-disabled: transparent;
 $input-border: 1px solid $light-green;
 $input-border-focus: 1px solid $dark-green;
 $input-shadow: none;
@@ -401,15 +401,15 @@ $meter-fill-bad: $alert-color;
 // 24. Off-canvas
 // --------------
 
-$offcanvas-size: 250px;
-$offcanvas-background: $light-gray;
+$offcanvas-size: 300px;
+$offcanvas-background: #252525;
 $offcanvas-zindex: -1;
 $offcanvas-transition-length: 0.5s;
 $offcanvas-transition-timing: ease;
 $offcanvas-fixed-reveal: true;
 $offcanvas-exit-background: rgba($white, 0.25);
 $maincontent-class: 'off-canvas-content';
-$maincontent-shadow: 0 0 10px rgba($black, 0.5);
+$maincontent-shadow: 0;
 
 // 25. Orbit
 // ---------

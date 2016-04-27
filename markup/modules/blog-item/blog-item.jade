@@ -1,0 +1,31 @@
+mixin blog-item
+  .blog-item
+    .blog-item__img
+      img(src="http://placehold.it/700x510&text=image")
+    a(href="#" title="").blog-item__title Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis risus vitae molestie tempor.
+
+    .blog-item-meta
+      .row
+        .columns
+          .blog-item-meta__date 
+            i.icon.icon-clock
+            span 2 Июля, 2015 | Наталья Калинина
+        .columns.shrink
+          .row.noGutter.full
+            .columns
+              .blog-item-meta__comments
+                i.icon.icon-chat-bubble
+                span 2
+            .columns
+              .blog-item-meta__likes
+                i.icon.icon-heart-empty
+                span 2
+
+    p.blog-item__text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis risus vitae molestie tempor. Duis id massa finibus est pellentesque efficitur. In eget eros quis lectus cursus volutpat quis sit amet diam. Vivamus justo orci, tempus quis augue vel, rhoncus tincidunt libero. Praesent iaculis eros mi, nec dapibus dolor lacinia a. Praesent vulputate libero augue, vitae maximus tellus lacinia in. Integer vel orci vel urna dapibus tempus. In eget faucibus lectus.
+
+    .row.align-middle
+      .columns
+        a(href="#" title="").button.blog-item__more ЧИТАТЬ
+      .columns.shrink
+        a(href="#" title="").blog-item__share
+          i.icon.icon-sharethis
