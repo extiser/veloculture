@@ -25,7 +25,11 @@
 }
 
 .left-logo {
-  @include bg($left-bar-logo);
+  // @include bg($left-bar-logo);
+  background: url(%=static=%general/logo-white.png) no-repeat;
+  background-size: auto 41px;
+  width: 100px;
+  height: 41px;
 }
 
 .close-left {
