@@ -11,7 +11,56 @@
   display: block;
 
   @include bg($top-bar-logo);
+}
 
+.top-bar-compare {
+  transition: all .4s ease-in-out;
+
+  color: $dark-green;
+
+  font-size: rem-calc(26);
+  .icon {
+    position: relative;
+    top: 3px;
+  }
+  &__count {
+    top: 3px;
+
+    @extend .top-bar-basket__count;
+  }
+}
+
+.top-bar-compare-pop {
+  position: absolute;
+  left: 0;
+
+  @extend .top-bar-basket-pop;
+  &__item {
+    @extend .top-bar-basket-pop__item;
+  }
+  &__close {
+    @extend .top-bar-basket-pop__close;
+  }
+  &__title {
+    padding-left: 15px;
+
+    @extend .top-bar-basket-pop__title;
+  }
+  &__cost {
+    padding-left: 15px;
+
+    @extend .top-bar-basket-pop__cost;
+  }
+  &__compare {
+    margin-top: 15px;
+
+    @extend .top-bar-basket-pop__buy;
+  }
+  &__clear {
+    margin-top: 15px;
+
+    @extend .top-bar-basket-pop__basket;
+  }
 }
 
 .top-bar-menu {
@@ -31,11 +80,10 @@
       color: #959595;
 
       font-family: $GothamProBold;
-      font-size: rem-calc(12);
       line-height: 123px;
 
       @include breakpoint(medium) {
-        font-size: rem-calc(16);
+        font-size: rem-calc(14);
       }
     }
     i {
@@ -93,7 +141,114 @@
   &:hover {
     color: $dark-green;
   }
+  &__count {
+    position: absolute;
+    top: 0;
+    right: 10px;
+
+    display: block;
+
+    width: 10px;
+    height: 10px;
+
+    text-align: center;
+
+    color: $white;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,.3);
+
+    font-size: rem-calc(6);
+    line-height: 12px;
+  }
 }
+
+.top-bar-basket-pop {
+  position: absolute;
+  z-index: 9999;
+  right: 0;
+
+  display: none;
+
+  width: 310px;
+  padding: 20px 15px;
+
+  border: 2px solid $dark-green;
+  background-color: $white;
+  &__item {
+    position: relative;
+
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+    border-bottom: 1px solid #a6a6a6;
+  }
+  &__close {
+    position: absolute;
+    top: 5px;
+    right: 0;
+
+    color: #a7a7a7;
+
+    font-size: rem-calc(14);
+  }
+  &__title {
+    text-transform: uppercase;
+
+    color: #626262;
+
+    font-size: rem-calc(12);
+  }
+  &__cost {
+    color: $dark-green;
+
+    font-size: rem-calc(12);
+  }
+  &__count {
+    padding-right: 10px;
+    padding-left: 10px;
+
+    text-align: center;
+
+    color: #fff;
+    background-color: #252525;
+
+    font-size: rem-calc(11);
+  }
+  &__text {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    text-transform: uppercase;
+
+    color: #626262;
+
+    font-size: rem-calc(14);
+    &--bold {
+      color: #a6a6a6;
+
+      font-family: $GothamProBold;
+    }
+  }
+  &__basket {
+    height: 36px;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    border-radius: 15px;
+
+    line-height: 34px;
+  }
+  &__buy {
+    height: 36px;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    border-radius: 15px;
+
+    line-height: 34px;
+  }
+}
+
 
 .top-bar-search {
   transition: all .4s ease-in-out;

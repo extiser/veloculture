@@ -104,6 +104,12 @@ $foundation-colors: (
 
   font-size: rem-calc(13);
   line-height: 1;
+
+  &--lined {
+    background-color: #fff;
+    border: 2px solid $dark-green;
+    color: $dark-green;
+  }
 }
 
 input {
