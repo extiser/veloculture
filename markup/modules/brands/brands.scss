@@ -12,6 +12,7 @@
 	margin-bottom: rem-calc(30);
 
 	border: 2px solid $light-green;
+	transition: all .4s ease-in-out;
 	&__img {
 		position: relative;
 
@@ -30,5 +31,9 @@
 		color: #626262;
 
 		font-size: rem-calc(16);
+	}
+	&:hover {
+		border-color: $dark-green;
+		box-shadow: 0 20px 30px rgba(0,0,0,.2);
 	}
 }

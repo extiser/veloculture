@@ -1,4 +1,7 @@
 .menu-toggler {
+  position: relative;
+  top: 5px;
+
   transition: all .4s ease-in-out;
 
   color: $medium-green;

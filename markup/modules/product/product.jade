@@ -1,10 +1,28 @@
 mixin product
+  
   .product
+    |<a href="#" title="">
     .product__img
       img(src="https://veloculture.ru/uploads/product/364_1731/main_thumb_1731.jpg" alt="")
+      .product-pop
+        .row.full.noGutter.align-center
+          .columns.shrink
+            a(href="#" title="").product-pop__item.product-pop__item--circle
+              i.icon.icon-search
+          .columns.shrink
+            a(href="#" title="").product-pop__item.product-pop__item--circle
+              i.icon.icon-fontello
+        .row.full.noGutter
+          .columns
+            a(href="#" title="").product-pop__item.product-pop__item--basket
+              i.icon.icon-plus
+              span в корзину
+
     +rating
+    
     .row.full.noGutter
       .columns.small-12
         a(href="#" title="").product__link creme lungo
       .columns.shrink.small-12
         .product__cost 84,000Р
+    |</a>
