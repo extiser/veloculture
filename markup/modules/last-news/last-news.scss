@@ -11,6 +11,25 @@
 
 .slick-dots li button {
   &:before {
+    overflow: hidden;
+
+    box-sizing: border-box;
+    width: 11px;
+    height: 11px;
+
+    color: transparent;
+    border: 2px solid #8b8b8b;
+    border-radius: 50%;
+    background-color: none;
+
     font-size: rem-calc(22);
+  }
+}
+
+.slick-active {
+  button {
+    &:before {
+      background-color: #8b8b8b;
+    }
   }
 }

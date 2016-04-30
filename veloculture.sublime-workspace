@@ -4,6 +4,66 @@
 		"selected_items":
 		[
 			[
+				"ea",
+				"ease-in-out"
+			],
+			[
+				"top-bar",
+				"top-bar-compare"
+			],
+			[
+				"marign",
+				"margin-top"
+			],
+			[
+				"top-ba",
+				"top-bar-compare"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"pd",
+				"padding-bottom"
+			],
+			[
+				"da",
+				"dark-green"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"top",
+				"top-bar-basket-pop__text"
+			],
+			[
+				"tra",
+				"transition	(brands.scss)"
+			],
+			[
+				"vis",
+				"visible"
+			],
+			[
+				"news-item",
+				"news-item__img"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"p",
+				"product"
+			],
+			[
+				"product-po",
+				"product-pop__item"
+			],
+			[
 				"margin",
 				"margin-right"
 			],
@@ -12,20 +72,8 @@
 				"last-news"
 			],
 			[
-				"pad",
-				"padding"
-			],
-			[
-				"fon",
-				"font-size"
-			],
-			[
 				"in",
 				"initial"
-			],
-			[
-				"marign",
-				"margin-top"
 			],
 			[
 				"le",
@@ -34,10 +82,6 @@
 			[
 				"data",
 				"data-close"
-			],
-			[
-				"da",
-				"data-off-canvas-wrapper"
 			],
 			[
 				"off",
@@ -122,10 +166,6 @@
 			[
 				"tex",
 				"text-align"
-			],
-			[
-				"pd",
-				"padding-top"
 			],
 			[
 				"lig",
@@ -250,10 +290,6 @@
 			[
 				"G",
 				"GothamProBold"
-			],
-			[
-				"top",
-				"topbar"
 			],
 			[
 				"sh",
@@ -464,10 +500,6 @@
 				"margin-left"
 			],
 			[
-				"p",
-				"position"
-			],
-			[
 				"fot",
 				"font-family"
 			],
@@ -482,38 +514,6 @@
 			[
 				"ta",
 				"tarif"
-			],
-			[
-				"tar",
-				"tarifController"
-			],
-			[
-				"togg",
-				"toggleClass	.toggleClass()"
-			],
-			[
-				"remo",
-				"removeClass	.removeClass()"
-			],
-			[
-				"works",
-				"works"
-			],
-			[
-				"has",
-				"hasClass	.hasClass()"
-			],
-			[
-				"ha",
-				"hasClass	.hasClass()"
-			],
-			[
-				"attr",
-				"attr	.attr() - single"
-			],
-			[
-				"ho",
-				"howwework"
 			]
 		]
 	},
@@ -593,25 +593,34 @@
 	[
 		"/Users/extiser/git/veloculture/markup",
 		"/Users/extiser/git/veloculture/markup/modules",
-		"/Users/extiser/git/veloculture/markup/modules/slider-main",
+		"/Users/extiser/git/veloculture/markup/modules/basket-item",
+		"/Users/extiser/git/veloculture/markup/modules/menu/data",
+		"/Users/extiser/git/veloculture/markup/modules/topbar",
 		"/Users/extiser/git/veloculture/markup/pages",
 		"/Users/extiser/git/veloculture/markup/static",
 		"/Users/extiser/git/veloculture/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/veloculture/markup/modules/topbar/topbar.scss",
+		"/Users/extiser/git/veloculture/markup/modules/topbar/topbar.jade",
+		"/Users/extiser/git/veloculture/markup/modules/menu/menu.scss",
+		"/Users/extiser/git/veloculture/markup/modules/topbar/topbar.js",
+		"/Users/extiser/git/veloculture/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/veloculture/markup/modules/slider-main/slider-main.scss",
+		"/Users/extiser/git/veloculture/markup/modules/news-item/news-item.scss",
+		"/Users/extiser/git/veloculture/markup/modules/brands/brands.scss",
+		"/Users/extiser/git/veloculture/markup/modules/news-item/news-item.jade",
+		"/Users/extiser/git/veloculture/markup/modules/brands/brands.jade",
+		"/Users/extiser/git/veloculture/markup/modules/product/product.jade",
+		"/Users/extiser/git/veloculture/markup/modules/product/product.scss",
 		"/Users/extiser/git/veloculture/markup/modules/slider-main/slider-main.jade",
 		"/Users/extiser/git/veloculture/markup/modules/last-news/last-news.jade",
-		"/Users/extiser/git/veloculture/markup/modules/news-item/news-item.scss",
 		"/Users/extiser/git/veloculture/markup/modules/last-news/last-news.js",
 		"/Users/extiser/git/veloculture/markup/modules/last-news/last-news.scss",
-		"/Users/extiser/git/veloculture/markup/modules/topbar/topbar.scss",
-		"/Users/extiser/git/veloculture/markup/modules/menu/menu.scss",
 		"/Users/extiser/git/veloculture/markup/modules/menu/menu.jade",
-		"/Users/extiser/git/veloculture/markup/static/scss/GUI.scss",
 		"/Users/extiser/git/veloculture/markup/static/scss/_settings.scss",
 		"/Users/extiser/git/veloculture/markup/pages/_layout.jade",
-		"/Users/extiser/git/veloculture/markup/modules/topbar/topbar.jade",
 		"/Users/extiser/git/veloculture/markup/modules/menu/data/data.js",
 		"/Users/extiser/git/veloculture/markup/modules/filter/filter.scss",
 		"/Users/extiser/git/veloculture/markup/modules/filter/filter.jade",
@@ -645,7 +654,6 @@
 		"/Users/extiser/git/veloculture/markup/modules/product-info/product-info.js",
 		"/Users/extiser/git/izeta-site/markup/modules/modal/modal.js",
 		"/Users/extiser/git/veloculture/markup/pages/product-card.jade",
-		"/Users/extiser/git/veloculture/markup/modules/product/product.jade",
 		"/Users/extiser/git/veloculture/markup/modules/rating/rating.jade",
 		"/Users/extiser/git/veloculture/markup/modules/product-images/product-images.js",
 		"/Users/extiser/git/veloculture/markup/static/scss/mixins.scss",
@@ -656,7 +664,6 @@
 		"/Users/extiser/git/veloculture/markup/static/scss/etc/icons.scss",
 		"/Users/extiser/git/veloculture/markup/modules/catalog-item/catalog-item.jade",
 		"/Users/extiser/git/veloculture/markup/modules/catalog-item/catalog-item.scss",
-		"/Users/extiser/git/veloculture/markup/modules/brands/brands.jade",
 		"/Users/extiser/git/veloculture/markup/modules/pagination/pagination.jade",
 		"/Users/extiser/git/veloculture/markup/modules/pagination/pagination.scss",
 		"/Users/extiser/git/veloculture/markup/modules/inside-top/inside-top.jade",
@@ -673,7 +680,6 @@
 		"/Users/extiser/git/veloculture/markup/modules/brend-main/brands.scss",
 		"/Users/extiser/git/veloculture/markup/modules/brend-main/brands.jade",
 		"/Users/extiser/git/veloculture/markup/pages/index.jade",
-		"/Users/extiser/git/veloculture/markup/modules/brands/brands.scss",
 		"/Users/extiser/git/wantcook/markup/modules/category-list/category-list.jade",
 		"/Users/extiser/git/wantcook/markup/modules/menu/menu.jade",
 		"/Users/extiser/git/wantcook/markup/modules/alcohol-content/alcohol-content.jade",
@@ -696,8 +702,6 @@
 		"/Users/extiser/git/insight/tars/markup/modules/articles/articles.jade",
 		"/Users/extiser/git/veloculture/markup/modules/footer/footer.jade",
 		"/Users/extiser/git/veloculture/markup/modules/footer/footer.scss",
-		"/Users/extiser/git/veloculture/markup/modules/slider-main/slider-main.scss",
-		"/Users/extiser/git/veloculture/markup/modules/product/product.scss",
 		"/Users/extiser/git/veloculture/markup/modules/popular-goods/popular-goods.jade",
 		"/Users/extiser/git/izeta-site/markup/static/scss/_izeta_settings.scss",
 		"/Users/extiser/git/veloculture/markup/modules/brend-main/brend-main.jade",
@@ -711,7 +715,6 @@
 		"/Users/extiser/git/veloculture/markup/modules/support-main/support-main.scss",
 		"/Users/extiser/git/veloculture/markup/modules/instagram/instagram.jade",
 		"/Users/extiser/git/veloculture/markup/modules/support-main/support-main.jade",
-		"/Users/extiser/git/veloculture/markup/modules/news-item/news-item.jade",
 		"/Users/extiser/git/veloculture/markup/modules/slider/slider.jade",
 		"/Users/extiser/git/veloculture/.csscomb.json",
 		"/Users/extiser/git/svadbavo-2015/dev/sass/blocks/_wedding-magazine.scss",
@@ -726,8 +729,7 @@
 		"/Users/extiser/git/svadbavo-2015/dev/js/app.js",
 		"/Users/extiser/git/svadbavo-2015/dev/template/partials/footer.jade",
 		"/Users/extiser/git/svadbavo-2015/dev/sass/base/_compass.scss",
-		"/Users/extiser/git/svadbavo-new/markup/static/scss/vars.scss",
-		"/Users/extiser/git/svadbavo-new/markup/static/scss/fonts.scss"
+		"/Users/extiser/git/svadbavo-new/markup/static/scss/vars.scss"
 	],
 	"find":
 	{
@@ -745,6 +747,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			".top-bar-basket-pop",
 			".menu",
 			"type=\"radio\"",
 			".brend-main",
@@ -871,8 +874,7 @@
 			"strong",
 			"footer",
 			"firm-card-tabs-photo-album",
-			"http://aversprof.ru/katalog/uniforma-i-speczodezhda/poshiv-rabochego-kostyuma.html",
-			"$password"
+			"http://aversprof.ru/katalog/uniforma-i-speczodezhda/poshiv-rabochego-kostyuma.html"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -880,6 +882,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			".top-bar-compare-pop",
 			".left-menu",
 			"type=\"checkbox\"",
 			".brands",

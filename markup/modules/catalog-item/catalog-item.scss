@@ -5,6 +5,7 @@
   padding-top: 30px;
   padding-bottom: 20px;
 
+  transition: all .4s ease-in-out;
   border: 2px solid $light-green;
   &__img {
     position: relative;
@@ -22,5 +23,9 @@
 
     font-family: $GothamProBold;
     font-size: rem-calc(24);
+  }
+  &:hover {
+    border-color: $dark-green;
+    box-shadow: 0 20px 30px rgba(0,0,0,.2);
   }
 }
