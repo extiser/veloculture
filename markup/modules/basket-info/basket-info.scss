@@ -9,6 +9,17 @@
   }
   .input-group {
     width: 70%;
+
+    @include breakpoint(small) {
+      width: 100%;
+    }
+  }
+  .input-group-field {
+    @include breakpoint(small) {
+      text-transform: lowercase;
+
+      font-size: rem-calc(9);
+    }
   }
 }
 

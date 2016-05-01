@@ -1,23 +1,23 @@
 mixin basket-item
   .basket-item
     .row.align-middle
-      .columns
+      .columns.small-12.large-expand
         .basket-item__img
           img(src="http://placehold.it/175x116&text=image")
-      .columns.shrink
+      .columns.small-12.large-expand
         .basket-item__model electra Cruiser 
           span Indy 3i Red (2014)
-      .columns.text-center
+      .columns.text-center.large-expand
         .basket-item__cost 59,000Р
-      .columns
+      .columns.large-expand
         .basket-item-count.productCount
           .basket-item-count__control.productCountPlus
             i.icon.icon-up-open-mini
           input(type="text" value="1").basket-item-count__value.productCountValue
           .basket-item-count__control.productCountMinus
             i.icon.icon-down-open-mini
-      .columns.text-center
+      .columns.text-center.large-expand
         .basket-item__cost 59,000Р
-      .columns.shrink
+      .columns.small-12.large-expand
         a(href="#" title="").basket-item__delete
           i.icon.icon-times

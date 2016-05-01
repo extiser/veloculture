@@ -1,6 +1,6 @@
 mixin topbar(data)
   div(data-sticky-container)
-    .top-bar(data-sticky data-options="marginTop:0;" style="width:100%; height: 123px;")
+    .top-bar(data-sticky data-options="marginTop:0;" data-sticky-on="small" style="width:100%; height: 123px;")
       .row.full.align-middle
         .columns.shrink
           a(href="#" data-open="offCanvas" aria-expanded="false" aria-controls="offCanvasLeft").menu-toggler
@@ -28,7 +28,7 @@ mixin topbar(data)
         .columns
           .row.align-center.align-middle
             .columns.shrink
-              .top-bar-menu.show-for-medium
+              .top-bar-menu.show-for-large
                 .top-bar-menu__item 
                   a(href="/catalog.html" title="") Велосипеды
                     i.icon-down-open-mini
@@ -201,7 +201,7 @@ mixin topbar(data)
             .columns.shrink
               a(href="/index.html" title="").top-bar-logo
             .columns.shrink
-              .top-bar-menu.show-for-medium
+              .top-bar-menu.show-for-large
                 .top-bar-menu__item 
                   a(href="#" title="") Блог
                 .top-bar-menu__item 

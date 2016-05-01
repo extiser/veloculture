@@ -6,10 +6,15 @@
 		img {
 			width: 90%;
 			margin: auto;
+
+			@include breakpoint(small) {
+				width: 70%;
+			}
 		}
 	}
 	&__control {
 		position: absolute;
+		z-index: 9;
 
 		box-sizing: border-box;
 		width: 57px;
@@ -21,16 +26,30 @@
 
 		font-size: rem-calc(44);
 
+		@include breakpoint(small) {
+			width: 32px;
+			height: 32px;
+
+			font-size: rem-calc(22);
+		}
 		@include vertical-center;
 		&--previous {
 			i {
 				left: 2px;
+
+				@include breakpoint(small) {
+					left: 1px;
+				}
 			}
 		}
 		&--next {
 			right: 0;
 			i {
 				right: 2px;
+
+				@include breakpoint(small) {
+					right: 1px;
+				}
 			}
 		}
 		i {

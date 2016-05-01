@@ -1,13 +1,13 @@
 mixin footer(data)
   footer.footer
     .row
-      .columns
+      .columns.show-for-large
         .footer-about
           .footer__title О НАС
 
           .footer-about__text Велокультура объединяет самые достойные бренды городских велосипедов в мире с возможностью покупки онлайн и доставки по всей России, интересных людей и события, формирующие велосипедное движение.
      
-      .columns
+      .columns.small-12.large-expand
         .footer-info
           .footer__title ИНФОРМАЦИЯ
           .row.full.noGutter
@@ -24,7 +24,7 @@ mixin footer(data)
               a(href="#" title="").footer-info__item О нас
               a(href="#" title="").footer-info__item Карта сайта
     
-      .columns
+      .columns.small-12.large-expand
         .footer-subscribe
           .footer__title РАССЫЛКА
 
@@ -34,7 +34,7 @@ mixin footer(data)
             input(type="email" value="" placeholder="Ваш E-mail").footer-subscribe-form__field
             input(type="submit" value="отправить").footer-subscribe-form__submit.tiny.button
 
-      .columns
+      .columns.small-12.large-expand
         .footer-contacts
           .footer__title Контакты
 

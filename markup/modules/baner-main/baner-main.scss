@@ -1,6 +1,7 @@
 .baner-main {
 	margin: rem-calc(80) 0;
-	@media screen and (max-width: 768px) {
+
+	@include breakpoint(small) {
 		margin: rem-calc(40) 0;
 	}
 }
@@ -52,6 +53,10 @@
 		background-color: rgba(0,0,0, .41);
 
 		@include absolute-center;
+		@include breakpoint(small) {
+			width: 96px;
+			height: 96px;
+		}
 		&--big {
 			width: 187px;
 			height: 187px;
@@ -76,6 +81,11 @@
 			font-size: rem-calc(19);
 			line-height: 1;
 
+			@include breakpoint(small) {
+				width: 70%;
+
+				font-size: rem-calc(15);
+			}
 			@include absolute-center;
 		}
 	}

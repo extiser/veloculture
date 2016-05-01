@@ -35,6 +35,10 @@
 		font-family: $GothamProBold;
 		font-size: rem-calc(20);
 		line-height: 1;
+
+		@include breakpoint(small) {
+			font-size: rem-calc(18);
+		}
 	}
 	&__link {
 		text-decoration: underline;
