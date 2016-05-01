@@ -16,19 +16,24 @@ mixin menu()
     .left-menu__item 
       a(href="#" title="") Велосипеды
       i.icon.icon-down-open-mini
-      - var data = {items: ['ВЕЛОЧОППЕРЫ', 'ШОССЕЙНЫЕ', 'ФИКСЫ', 'КРУИЗЕРЫ', 'СКЛАДНЫЕ', 'БЕГОВЕЛЫ', 'ГОРОДСКИЕ', 'ПОДРОСТКОВЫЕ', 'КОМФОРТНЫЕ','ДЕТСКИЕ']}
+      - var data = {items: ['Велочопперы', 'Шоссейные', 'Фиксы', 'Круизеры', 'Складные', 'Беговелы', 'Городские', 'Подростковые', 'Комфортные', 'Детские', 'Электрические']}
       +menu-drop(data)
     .left-menu__item 
       a(href="#" title="") Аксессуары
       i.icon.icon-down-open-mini
+      - var data = {items: ['Цветы на руль', 'Рули', 'Клаксоны', 'Педали', 'Флягодержатели', 'Покрышки', 'Подседельные зажимы', 'Сумки', 'Детские кресла', 'Грипсы', 'Очиститель втулки', 'Вкладыши', 'Ватрушки', 'Футболки', 'Фонари', 'Шлема', 'Корзинки', 'Ленты на руль', 'Седла', 'Колпачки', 'Чехлы', 'Крылья', 'Наклейки', 'Багажники', 'Звонки', 'Звезды', 'Зеркала']}
+      +menu-drop(data)
     .left-menu__item 
       a(href="#" title="") Бренды
       i.icon.icon-down-open-mini
+      - var data = {items: ['Electra', 'Schwinn', 'Pashley', 'Erenpreiss', 'Giant', 'Shulz', 'Strida', 'SaintVelo', 'Fuji', 'Polo&Bike']}
+      +menu-drop(data)
     .left-menu__item 
       a(href="#" title="") Блог
     .left-menu__item 
       a(href="#" title="") Поддержка
       i.icon.icon-down-open-mini
+      - var data = {items: ['FAQ', 'Доставка', 'Магазины', 'О нас']}
     .left-menu__item 
       a(href="#" title="") Контакты
 
