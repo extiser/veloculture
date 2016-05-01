@@ -1,15 +1,9 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="&#x56FE;&#x5C42;_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-	 y="0px" viewBox="0 0 12 12" style="enable-background:new 0 0 12 12;" xml:space="preserve">
-<g id="star_yellow_4_" transform="translate(49.000000, 1.000000)">
-	<g>
-		<polygon style="fill:#FF8A09;" points="-43,7.977 -45.939,9.523 -45.378,6.25 -47.755,3.932 -44.469,3.455 -43,0.477 
-			-41.531,3.455 -38.245,3.932 -40.622,6.25 -40.061,9.523 		"/>
-		<path style="fill:#E86600;" d="M-39.397,10.437L-43,8.542l-3.603,1.894l0.688-4.012l-2.916-2.841l4.029-0.585L-43-0.652
-			l1.801,3.65l4.029,0.585l-2.916,2.841L-39.397,10.437z M-43,7.413l2.275,1.196l-0.435-2.533l1.84-1.794l-2.543-0.369L-43,1.607
-			l-1.137,2.305l-2.543,0.369l1.84,1.794l-0.435,2.533L-43,7.413z"/>
-	</g>
-</g>
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+<path fill="#F2CE46" d="M15.8,6.7l-3.5,3.6l0.8,5c0,0.1,0,0.1,0,0.2c0,0.3-0.1,0.5-0.4,0.5c-0.1,0-0.3-0.1-0.4-0.1L8,13.5l-4.3,2.4
+	C3.6,15.9,3.4,16,3.3,16c-0.3,0-0.4-0.2-0.4-0.5c0-0.1,0-0.1,0-0.2l0.8-5L0.2,6.7C0.1,6.6,0,6.4,0,6.2c0-0.3,0.3-0.4,0.5-0.5L5.4,5
+	l2.2-4.6C7.6,0.2,7.8,0,8,0s0.4,0.2,0.5,0.4L10.6,5l4.8,0.7c0.2,0,0.5,0.2,0.5,0.5C16,6.4,15.9,6.6,15.8,6.7z"/>
 </svg>

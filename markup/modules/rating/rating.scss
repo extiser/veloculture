@@ -1,6 +1,36 @@
-.rating {
-  color: #fad232;
+.rateit {
+  position: relative;
 
-  font-size: rem-calc(18);
-  line-height: 1;
+  display: inline-block;
+
+  user-select: none;
+}
+
+.rateit .rateit-range {
+  position: relative;
+
+  display: inline-block;
+
+  height: 16px;
+
+  outline: none;
+  background: url(%=static=%minified-svg/star-empty.svg);
+}
+
+.rateit .rateit-range * {
+  display: block;
+}
+
+.rateit .rateit-hover,
+.rateit .rateit-selected {
+  position: absolute;
+  left: 0;
+}
+
+.rateit .rateit-hover {
+  background: url(%=static=%minified-svg/star-full.svg);
+}
+
+.rateit .rateit-selected {
+  background: url(%=static=%minified-svg/star-full.svg);
 }

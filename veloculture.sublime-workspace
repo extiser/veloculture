@@ -4,12 +4,28 @@
 		"selected_items":
 		[
 			[
-				"ea",
-				"ease-in-out"
+				"top-bar",
+				"top-bar-menu-drop"
 			],
 			[
-				"top-bar",
-				"top-bar-compare"
+				"line",
+				"line-height"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"menu",
+				"menuItem"
+			],
+			[
+				"cl",
+				"click"
+			],
+			[
+				"ea",
+				"ease-in-out"
 			],
 			[
 				"marign",
@@ -30,10 +46,6 @@
 			[
 				"da",
 				"dark-green"
-			],
-			[
-				"pad",
-				"padding-bottom"
 			],
 			[
 				"top",
@@ -502,18 +514,6 @@
 			[
 				"fot",
 				"font-family"
-			],
-			[
-				"tari",
-				"tarif__item"
-			],
-			[
-				"border-bt",
-				"border-bottom-color"
-			],
-			[
-				"ta",
-				"tarif"
 			]
 		]
 	},
@@ -593,34 +593,50 @@
 	[
 		"/Users/extiser/git/veloculture/markup",
 		"/Users/extiser/git/veloculture/markup/modules",
-		"/Users/extiser/git/veloculture/markup/modules/basket-item",
-		"/Users/extiser/git/veloculture/markup/modules/menu/data",
-		"/Users/extiser/git/veloculture/markup/modules/topbar",
 		"/Users/extiser/git/veloculture/markup/pages",
 		"/Users/extiser/git/veloculture/markup/static",
-		"/Users/extiser/git/veloculture/markup/static/scss"
+		"/Users/extiser/git/veloculture/markup/static/js",
+		"/Users/extiser/git/veloculture/markup/static/scss",
+		"/Users/extiser/git/veloculture/markup/static/scss/plugins"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/veloculture/markup/static/scss/plugins/jrating.scss",
+		"/Users/extiser/git/veloculture/markup/pages/_layout.jade",
+		"/Users/extiser/git/veloculture/markup/modules/rating/rating.scss",
+		"/Users/extiser/git/veloculture/markup/modules/rating/rating.jade",
+		"/Users/extiser/git/veloculture/markup/modules/rating/rating.js",
+		"/Users/extiser/git/veloculture/markup/static/js/separate-js/jRating.jquery.min.js",
+		"/Users/extiser/git/veloculture/markup/modules/menu/menu.jade",
+		"/Users/extiser/git/veloculture/markup/static/js/plugins/jRating.jquery.min.js",
+		"/Users/extiser/git/veloculture/dev/static/js/main.js",
+		"/Users/extiser/git/veloculture/tars-config.js",
+		"/Users/extiser/git/veloculture/node_modules/jrating/jRating.js",
 		"/Users/extiser/git/veloculture/markup/modules/topbar/topbar.scss",
 		"/Users/extiser/git/veloculture/markup/modules/topbar/topbar.jade",
+		"/Users/extiser/git/veloculture/markup/modules/menu/menu.js",
 		"/Users/extiser/git/veloculture/markup/modules/menu/menu.scss",
-		"/Users/extiser/git/veloculture/markup/modules/topbar/topbar.js",
 		"/Users/extiser/git/veloculture/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/veloculture/markup/modules/footer/footer.jade",
+		"/Users/extiser/git/veloculture/markup/modules/topbar/topbar.js",
+		"/Users/extiser/git/veloculture/markup/modules/slider-main/slider-main.jade",
+		"/Users/extiser/git/veloculture/markup/modules/slider-main/slider-main.js",
+		"/Users/extiser/git/veloculture/markup/modules/footer/footer.scss",
 		"/Users/extiser/git/veloculture/markup/modules/slider-main/slider-main.scss",
+		"/Users/extiser/git/veloculture/markup/modules/baner-main/baner-main.jade",
+		"/Users/extiser/git/veloculture/markup/modules/baner-main/baner-main.scss",
+		"/Users/extiser/git/veloculture/markup/modules/last-news/last-news.scss",
+		"/Users/extiser/git/veloculture/markup/modules/catalog-item/catalog-item.scss",
+		"/Users/extiser/git/veloculture/markup/pages/catalog.jade",
 		"/Users/extiser/git/veloculture/markup/modules/news-item/news-item.scss",
 		"/Users/extiser/git/veloculture/markup/modules/brands/brands.scss",
 		"/Users/extiser/git/veloculture/markup/modules/news-item/news-item.jade",
 		"/Users/extiser/git/veloculture/markup/modules/brands/brands.jade",
 		"/Users/extiser/git/veloculture/markup/modules/product/product.jade",
 		"/Users/extiser/git/veloculture/markup/modules/product/product.scss",
-		"/Users/extiser/git/veloculture/markup/modules/slider-main/slider-main.jade",
 		"/Users/extiser/git/veloculture/markup/modules/last-news/last-news.jade",
 		"/Users/extiser/git/veloculture/markup/modules/last-news/last-news.js",
-		"/Users/extiser/git/veloculture/markup/modules/last-news/last-news.scss",
-		"/Users/extiser/git/veloculture/markup/modules/menu/menu.jade",
 		"/Users/extiser/git/veloculture/markup/static/scss/_settings.scss",
-		"/Users/extiser/git/veloculture/markup/pages/_layout.jade",
 		"/Users/extiser/git/veloculture/markup/modules/menu/data/data.js",
 		"/Users/extiser/git/veloculture/markup/modules/filter/filter.scss",
 		"/Users/extiser/git/veloculture/markup/modules/filter/filter.jade",
@@ -641,29 +657,24 @@
 		"/Users/extiser/git/veloculture/markup/modules/basket-info/basket-info.scss",
 		"/Users/extiser/git/veloculture/markup/modules/basket-item/basket-item.jade",
 		"/Users/extiser/git/veloculture/markup/modules/basket-item/basket-item.scss",
-		"/Users/extiser/git/veloculture/markup/pages/catalog.jade",
 		"/Users/extiser/git/veloculture/markup/modules/head/head.jade",
 		"/Users/extiser/git/veloculture/markup/modules/product-tabs/product-tabs.scss",
 		"/Users/extiser/git/veloculture/markup/modules/product-tabs/product-tabs.jade",
 		"/Users/extiser/git/veloculture/markup/modules/product-info/product-info.jade",
 		"/Users/extiser/git/veloculture/markup/modules/product-info/product-info.scss",
-		"/Users/extiser/git/veloculture/markup/modules/rating/rating.scss",
 		"/Users/extiser/git/veloculture/markup/modules/product-images/product-images.jade",
 		"/Users/extiser/git/veloculture/markup/modules/product-images/product-images.scss",
 		"/Users/extiser/git/veloculture/markup/static/scss/normalize.scss",
 		"/Users/extiser/git/veloculture/markup/modules/product-info/product-info.js",
 		"/Users/extiser/git/izeta-site/markup/modules/modal/modal.js",
 		"/Users/extiser/git/veloculture/markup/pages/product-card.jade",
-		"/Users/extiser/git/veloculture/markup/modules/rating/rating.jade",
 		"/Users/extiser/git/veloculture/markup/modules/product-images/product-images.js",
 		"/Users/extiser/git/veloculture/markup/static/scss/mixins.scss",
 		"/Users/extiser/git/izeta-site/markup/pages/_layout.jade",
-		"/Users/extiser/git/veloculture/tars-config.js",
 		"/Users/extiser/git/veloculture/node_modules/slick-carousel/slick/slick.scss",
 		"/Users/extiser/git/veloculture/node_modules/slick-carousel/slick/slick-theme.scss",
 		"/Users/extiser/git/veloculture/markup/static/scss/etc/icons.scss",
 		"/Users/extiser/git/veloculture/markup/modules/catalog-item/catalog-item.jade",
-		"/Users/extiser/git/veloculture/markup/modules/catalog-item/catalog-item.scss",
 		"/Users/extiser/git/veloculture/markup/modules/pagination/pagination.jade",
 		"/Users/extiser/git/veloculture/markup/modules/pagination/pagination.scss",
 		"/Users/extiser/git/veloculture/markup/modules/inside-top/inside-top.jade",
@@ -700,18 +711,14 @@
 		"/Users/extiser/git/insight/tars/markup/modules/gui-checkbox/gui-checkbox.jade",
 		"/Users/extiser/git/insight/tars/markup/modules/advantages/advantages.jade",
 		"/Users/extiser/git/insight/tars/markup/modules/articles/articles.jade",
-		"/Users/extiser/git/veloculture/markup/modules/footer/footer.jade",
-		"/Users/extiser/git/veloculture/markup/modules/footer/footer.scss",
 		"/Users/extiser/git/veloculture/markup/modules/popular-goods/popular-goods.jade",
 		"/Users/extiser/git/izeta-site/markup/static/scss/_izeta_settings.scss",
 		"/Users/extiser/git/veloculture/markup/modules/brend-main/brend-main.jade",
 		"/Users/extiser/git/veloculture/markup/modules/popular-goods/popular-goods.scss",
 		"/Users/extiser/git/veloculture/markup/modules/instagram/instagram.scss",
 		"/Users/extiser/git/veloculture/markup/modules/brend-main/brend-main.scss",
-		"/Users/extiser/git/veloculture/markup/modules/baner-main/baner-main.scss",
 		"/Users/extiser/git/izeta-site/markup/modules/block-big/block-big.scss",
 		"/Users/extiser/git/izeta-site/markup/modules/block-big/block-big.jade",
-		"/Users/extiser/git/veloculture/markup/modules/baner-main/baner-main.jade",
 		"/Users/extiser/git/veloculture/markup/modules/support-main/support-main.scss",
 		"/Users/extiser/git/veloculture/markup/modules/instagram/instagram.jade",
 		"/Users/extiser/git/veloculture/markup/modules/support-main/support-main.jade",
@@ -721,15 +728,7 @@
 		"/Users/extiser/git/svadbavo-2015/dev/sass/blocks/_sections-of-the-magazine.scss",
 		"/Users/extiser/git/svadbavo-2015/dev/sass/base/_config.scss",
 		"/Users/extiser/git/svadbavo-2015/dev/sass/base/_variables.scss",
-		"/Users/extiser/git/svadbavo-2015/dev/template/partials/header.jade",
-		"/Users/extiser/git/svadbavo-2015/dev/sass/partials/_header.scss",
-		"/Users/extiser/git/svadbavo-2015/dev/sass/partials/_sidebar.scss",
-		"/Users/extiser/git/svadbavo-2015/gulpfile.js",
-		"/Users/extiser/git/svadbavo-2015/dev/template/partials/sidebar.jade",
-		"/Users/extiser/git/svadbavo-2015/dev/js/app.js",
-		"/Users/extiser/git/svadbavo-2015/dev/template/partials/footer.jade",
-		"/Users/extiser/git/svadbavo-2015/dev/sass/base/_compass.scss",
-		"/Users/extiser/git/svadbavo-new/markup/static/scss/vars.scss"
+		"/Users/extiser/git/svadbavo-2015/dev/template/partials/header.jade"
 	],
 	"find":
 	{
@@ -747,6 +746,10 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"jRating",
+			"', '",
+			"<span class=\"submenu__label\">",
+			"</span></a></li><li class=\"submenu__item\"><a href=\"/velocatalog/shossejnye\" class=\"submenu__link\"><i class='icons-font i-plus'></i>",
 			".top-bar-basket-pop",
 			".menu",
 			"type=\"radio\"",
@@ -870,11 +873,7 @@
 			".form",
 			"form",
 			"acccentre.ru",
-			"acccentre.iqdemo.ru",
-			"strong",
-			"footer",
-			"firm-card-tabs-photo-album",
-			"http://aversprof.ru/katalog/uniforma-i-speczodezhda/poshiv-rabochego-kostyuma.html"
+			"acccentre.iqdemo.ru"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -882,6 +881,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
 			".top-bar-compare-pop",
 			".left-menu",
 			"type=\"checkbox\"",

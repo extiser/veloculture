@@ -9,6 +9,7 @@
     "foundation-sites": "^6.2.0",
     "gulp": "^3.9.0",
     "jquery": "^2.2.1",
+    "jquery.rateit": "^1.0.23",
     "motion-ui": "^1.2.2",
     "slick-carousel": "^1.5.9"
   },
