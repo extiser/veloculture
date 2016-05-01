@@ -13,9 +13,26 @@ mixin menu()
       a(href="#" aria-label="Close left" data-close).close-left
         i.icon.icon-close-delete
   .left-menu
-    a(href="#" title="").left-menu__item Велосипеды
-    a(href="#" title="").left-menu__item Аксессуары
-    a(href="#" title="").left-menu__item Бренды
-    a(href="#" title="").left-menu__item Блог
-    a(href="#" title="").left-menu__item Поддержка
-    a(href="#" title="").left-menu__item Контакты
+    .left-menu__item 
+      a(href="#" title="") Велосипеды
+      i.icon.icon-down-open-mini
+      - var data = {items: ['ВЕЛОЧОППЕРЫ', 'ШОССЕЙНЫЕ', 'ФИКСЫ', 'КРУИЗЕРЫ', 'СКЛАДНЫЕ', 'БЕГОВЕЛЫ', 'ГОРОДСКИЕ', 'ПОДРОСТКОВЫЕ', 'КОМФОРТНЫЕ','ДЕТСКИЕ']}
+      +menu-drop(data)
+    .left-menu__item 
+      a(href="#" title="") Аксессуары
+      i.icon.icon-down-open-mini
+    .left-menu__item 
+      a(href="#" title="") Бренды
+      i.icon.icon-down-open-mini
+    .left-menu__item 
+      a(href="#" title="") Блог
+    .left-menu__item 
+      a(href="#" title="") Поддержка
+      i.icon.icon-down-open-mini
+    .left-menu__item 
+      a(href="#" title="") Контакты
+
+mixin menu-drop(data)
+  .menu-drop
+    - each val in data.items
+      a(href="#" title="").menu-drop__item= val

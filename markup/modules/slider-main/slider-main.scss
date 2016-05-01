@@ -1,19 +1,16 @@
-.orbit {
-	z-index: 0;
-}
 
-.orbit-container {
-	overflow: visible;
-
-	text-align: center;
-}
-
-.orbit-image {
-	width: 90%;
-}
 
 .slider-main {
+	text-align: center;
+	&__item {
+		img {
+			width: 90%;
+			margin: auto;
+		}
+	}
 	&__control {
+		position: absolute;
+
 		box-sizing: border-box;
 		width: 57px;
 		height: 57px;
@@ -23,12 +20,15 @@
 		border-radius: 50%;
 
 		font-size: rem-calc(44);
+
+		@include vertical-center;
 		&--previous {
 			i {
 				left: 2px;
 			}
 		}
 		&--next {
+			right: 0;
 			i {
 				right: 2px;
 			}

@@ -9,10 +9,10 @@ mixin topbar(data)
           a(href="#" title="").top-bar-compare
             .icon.icon-fontello
             span.top-bar-compare__count 0
-          .top-bar-compare-pop
+          .top-bar-compare-pop.popMessage
             - for (var i = 0; i < 3; i++)
               .top-bar-compare-pop__item
-                .top-bar-compare-pop__close
+                a(href="#" title="").top-bar-compare-pop__close
                   i.icon.icon-times
                 .row.full.noGutter.align-justify.align-middle
                   .columns.shrink
@@ -97,10 +97,10 @@ mixin topbar(data)
               a(href="#" title="").top-bar-basket
                 i.icon.icon-shopping-cart
                 span.top-bar-basket__count 0
-              .top-bar-basket-pop
+              .top-bar-basket-pop.popMessage
                 - for (var i = 0; i < 3; i++)
                   .top-bar-basket-pop__item
-                    .top-bar-basket-pop__close
+                    a(href="#" title="").top-bar-basket-pop__close
                       i.icon.icon-times
                     .row.full.noGutter.align-justify.align-middle
                       .columns.shrink
