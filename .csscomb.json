@@ -342,6 +342,10 @@
                   "font-emphasize-style",
                   "font-smooth",
                   "line-height"
-              ]
+              ],
+              [ "@include breakpoint(small)" ],
+              [ "@include breakpoint(medium)" ],
+              [ "@include breakpoint(large)" ],
+              [ "@include breakpoint(xlarge)" ]
           ]
       }
