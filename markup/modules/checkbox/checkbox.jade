@@ -1,0 +1,16 @@
+mixin checkbox(name, value)
+  - var modiffer = attributes.class || '';
+  .checkbox(class="#{modiffer}")
+    label
+      - if (modiffer == '')
+        i.icon.icon-circle-o
+      input(type="checkbox" name="#{name}" value="#{value}")
+      span #{value}
+
+mixin checkbox-colored(name, value, text)
+  - var modiffer = attributes.class || '';
+  .checkbox.checkbox--colored(class="#{modiffer}")
+    label
+      i.icon(class="icon--#{value}")
+      input(type="checkbox" name="#{name}" value="#{value}")
+      span #{text}

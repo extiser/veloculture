@@ -1,0 +1,104 @@
+.checkbox {
+  position: relative;
+  input {
+    margin-bottom: 0;
+
+    opacity: 0;
+  }
+  label {
+    color: #666;
+
+    font-size: rem-calc(12);
+  }
+  .icon {
+    position: absolute;
+    top: 1px;
+    left: 0;
+
+    box-sizing: border-box;
+
+    font-size: rem-calc(14);
+    &--black {
+      background-color: #000;
+    }
+    &--gray {
+      background-color: #666;
+    }
+    &--white {
+      border: 1px solid gray;
+      background-color: #fff;
+      &:before {
+        color: gray;
+      }
+    }
+    &--red {
+      background-color: #e7531f;
+    }
+    &--orange {
+      background-color: #ff8915;
+    }
+    &--yellow {
+      background-color: #f1de3d;
+    }
+    &--green {
+      background-color: green;
+    }
+    &--blue {
+      background-color: blue;
+    }
+    &--lime {
+      background-color: #6dcb34;
+    }
+    &--turquoise {
+      background-color: #47bda8;
+    }
+  }
+  &.active {
+    .icon {
+      &:before {
+        content: "\41";
+      }
+    }
+  }
+  &--colored {
+    .icon {
+      top: 4px;
+
+      width: 12px;
+      height: 12px;
+
+      color: #fff;
+      border-radius: 50%;
+    }
+    &.active {
+      .icon {
+        &:before {
+          content: "\42";
+
+          font-size: rem-calc(8);
+
+          @include absolute-center;
+        }
+      }
+    }
+  }
+  &--text {
+    display: inline;
+
+    margin-right: 5px;
+    label {
+      display: inline;
+
+      font-size: rem-calc(14);
+    }
+    input {
+      position: absolute;
+    }
+    &.active {
+      font-family: $GothamProBold;
+      label {
+        color: $light-green;
+      }
+    }
+  }
+}

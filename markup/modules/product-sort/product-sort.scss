@@ -1,22 +1,99 @@
 .product-sort {
-	color: #b7b7b7;
-	padding: 15px 0;
-	&__showed {
-		font-size: rem-calc(18);
-	}
-	&__by {
-		font-size: rem-calc(13);
-		span {
-			padding-left: 5px;
+  padding: 15px 0;
 
-			color: $medium-green;
-			&:hover {
-				cursor: pointer;
-			}
-			i {
-				position: relative;
-				top: 3px;
-			}
-		}
-	}
+  color: #b7b7b7;
+  &__showed {
+    font-size: rem-calc(18);
+  }
+}
+
+.product-sort-by {
+  position: relative;
+
+  font-size: rem-calc(13);
+  &:hover {
+    .product-sort-by-drop {
+      top: 25px;
+
+      visibility: visible;
+
+      opacity: 1;
+    }
+  }
+  span {
+    padding-left: 5px;
+
+    color: $medium-green;
+    &:hover {
+      cursor: pointer;
+    }
+    i {
+      position: relative;
+      top: 3px;
+    }
+  }
+}
+
+.product-sort-by-drop {
+  position: absolute;
+  z-index: 9;
+  top: 0;
+  right: 0;
+
+  visibility: hidden;
+
+  padding: 10px 15px;
+
+  transition: all .4s ease-in-out;
+  text-align: left;
+
+  opacity: 0;
+  border: 2px solid $light-green;
+  background-color: $white;
+  box-shadow: 0 20px 30px rgba(0,0,0,.2);
+  &__item {
+    display: block;
+
+    color: #b7b7b7;
+
+    line-height: rem-calc(17);
+    &:before {
+      position: relative;
+      top: 2px;
+
+      margin-right: 5px;
+
+      content: "•";
+
+      color: $light-green;
+
+      font-size: rem-calc(18);
+    }
+  }
+}
+
+.product-sort-viewed {
+  font-size: rem-calc(18);
+  &__item {
+    color: #b7b7b7;
+    &:hover {
+      &:after {
+        color: #b7b7b7;
+      }
+    }
+    &:after {
+      padding-right: 2px;
+      padding-left: 2px;
+
+      content: "/";
+    }
+    &:last-child {
+      &:after {
+        content: "";
+      }
+    }
+    &:first-child {
+      padding-left: 5px;
+    }
+  }
 }

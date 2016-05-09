@@ -1,0 +1,10 @@
+mixin new-entries
+  .new-entries
+    .new-entries__title Новые посты
+
+    - for (var i = 0; i < 2; i++)
+      a(href="#" title="")
+        .new-entries-item
+          .new-entries-item__img
+            img(src="http://placehold.it/342x228&text=image")
+          .new-entries-item__text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis risus vitae molestie tempor.

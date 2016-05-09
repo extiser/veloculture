@@ -49,6 +49,7 @@
   opacity: 0;
 
   @include absolute-center;
+  width: 70%;
   &__item {
     display: block;
 

@@ -1,0 +1,81 @@
+mixin comments
+  .comments
+    .comments__title 4 КОММЕНТАРИЯ
+    
+    //- comments-answer
+    .comments-answer
+      .row.align-middle
+        .columns.shrink
+          .comments-answer__img
+            img(src="http://placehold.it/77x77&text=image")
+        .columns
+          .comments-answer__content
+            .comments-answer__name Аня Моторкина
+            .comments-answer__text Praesent at tellus non sem finibus interdum sit amet non tortor. In hac habitasse platea dictumst. Aenean sodales purus ex. Etiam finibus augue sed risus semper euismod. Donec at luctus mi. Donec volutpat tortor nec faucibus lacinia. Nam auctor pellentesque felis, eu iaculis.
+      .row
+        .columns.text-right
+          a(href="#" title="").comments-answer__link 
+            i.icon.icon-reply
+            span ОТВЕТИТЬ
+
+    //- comments-answer--inside
+    .comments-answer.comments-answer--inside
+      .row.align-middle
+        .columns.shrink
+          .comments-answer__img
+            img(src="http://placehold.it/77x77&text=image")
+        .columns
+          .comments-answer__content
+            .comments-answer__name Аня Моторкина
+            .comments-answer__text Praesent at tellus non sem finibus interdum sit amet non tortor. In hac habitasse platea dictumst. Aenean sodales purus ex. Etiam finibus augue sed risus semper euismod. Donec at luctus mi. Donec volutpat tortor nec faucibus lacinia. Nam auctor pellentesque felis, eu iaculis.
+      .row
+        .columns.text-right
+          a(href="#" title="").comments-answer__link 
+            i.icon.icon-reply
+            span ОТВЕТИТЬ
+
+    //- comments-answer
+    .comments-answer
+      .row.align-middle
+        .columns.shrink
+          .comments-answer__img
+            img(src="http://placehold.it/77x77&text=image")
+        .columns
+          .comments-answer__content
+            .comments-answer__name Аня Моторкина
+            .comments-answer__text Praesent at tellus non sem finibus interdum sit amet non tortor. In hac habitasse platea dictumst. Aenean sodales purus ex. Etiam finibus augue sed risus semper euismod. Donec at luctus mi. Donec volutpat tortor nec faucibus lacinia. Nam auctor pellentesque felis, eu iaculis.
+      .row
+        .columns.text-right
+          a(href="#" title="").comments-answer__link 
+            i.icon.icon-reply
+            span ОТВЕТИТЬ
+
+    .comments__title Прокомментировать
+
+    .comments-login
+      .row.full.noGutter.align-middle
+        .columns.shrink
+          .comments-login__text ЗАЙТИ С ПОМОЩЬЮ:
+        .columns.shrink
+          a(href="#" title="")
+            i.icon.icon-vk
+        .columns.shrink
+          a(href="#" title="")
+            i.icon.icon-facebook
+    
+    .comments-form
+      .row
+        .columns.small-12.medium-6
+          .comments-form__field
+            input(type="email" value="" placeholder="Email")
+            i.icon.icon-envelope-o
+        .columns.small-12.medium-6
+          .comments-form__field
+            input(type="text" value="" placeholder="Ваше Имя")
+            i.icon.icon-user-outline
+        .columns.small-12.medium-12
+          .comments-form__field
+            textarea(placeholder="Комментарий" rows="6")
+            i.icon.icon-chat-bubble
+        .columns.small-12.medium-3
+          input(type="submit" value="Отправить").button.comments-form__submit

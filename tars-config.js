@@ -21,7 +21,8 @@ module.exports = {
         'node_modules/motion-ui/motion-ui.js',
         'node_modules/foundation-sites/dist/foundation.js',
         'node_modules/slick-carousel/slick/slick.js',
-        'node_modules/jquery.rateit/scripts/jquery.rateit.min.js'
+        'node_modules/jquery.rateit/scripts/jquery.rateit.min.js',
+        'node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js'
     ],
     "lintJsCodeBeforeModules": false,
     "jsPathsToConcatAfterModulesJs": [],

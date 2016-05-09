@@ -1,0 +1,24 @@
+.sitemap-list {
+  margin-top: 15px;
+}
+
+.sitemap-list-item {
+  a {
+    text-transform: uppercase;
+    font-size: rem-calc(18);
+    color: $dark-green;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.sitemap-list-inside {}
+
+.sitemap-list-inside-item {
+  a {
+    font-size: rem-calc(14);
+    color: #B4B4B4;
+    text-transform: none;
+  }
+}

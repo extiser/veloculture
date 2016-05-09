@@ -68,8 +68,11 @@
 
 .footer-subscribe-form {
 	&__field {
+		height: auto;
 		margin-top: 15px;
 		margin-bottom: 15px;
+
+		text-transform: none;
 
 		font-family: $GlametrixLight;
 		font-size: rem-calc(22);

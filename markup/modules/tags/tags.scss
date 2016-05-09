@@ -1,0 +1,28 @@
+.tags {
+  padding-bottom: 10px;
+
+  @extend .new-entries;
+  &__title {
+    @extend .new-entries__title;
+  }
+  &__item {
+    display: inline-block;
+
+    margin-right: 10px;
+    margin-bottom: 15px;
+    padding: 5px 10px 3px;
+
+    transition: all .4s ease-in-out;
+    text-transform: uppercase;
+
+    color: #919191;
+    border: 1px solid $light-green;
+    border-radius: 10px;
+
+    font-size: rem-calc(14);
+    &:hover {
+      color: $white;
+      background-color: $light-green;
+    }
+  }
+}

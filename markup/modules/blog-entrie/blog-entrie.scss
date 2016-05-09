@@ -1,0 +1,142 @@
+.blog-entrie {
+  margin: 40px 0;
+  padding: 20px;
+
+  border: 2px solid $light-green;
+  &__img {
+    margin-bottom: 15px;
+  }
+  &__title {
+    margin-top: 20px;
+    h1 {
+      font-family: $GothamProBold;
+      font-size: rem-calc(24);
+    }
+  }
+  &__content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    p {
+      text-align: justify;
+
+      color: #959595;
+
+      font-size: rem-calc(16);
+    }
+  }
+}
+
+.blog-entrie-meta {
+  &__date {
+    color: #ccc;
+
+    font-size: rem-calc(16);
+    .icon {
+      position: relative;
+      top: 2px;
+
+      margin-right: 5px;
+    }
+  }
+  &__item {
+    margin-left: 10px;
+
+    color: $light-green;
+
+    font-family: $GothamProBold;
+    font-size: rem-calc(15);
+    .icon {
+      position: relative;
+      top: 2px;
+
+      margin-right: 5px;
+    }
+    &--comment {
+      .icon {
+        top: 1px;
+
+        font-size: rem-calc(13);
+      }
+    }
+  }
+}
+
+.blog-entrie-tags {
+  position: relative;
+
+  padding-left: 35px;
+  &:before,
+  &:after {
+    position: absolute;
+    top: 8px;
+    left: 0;
+
+    display: block;
+
+    content: "";
+
+    border-radius: 50%;
+  }
+  &:before {
+    width: 16px;
+    height: 16px;
+
+    border: 2px solid $light-green;
+  }
+  &:after {
+    top: 12px;
+    left: 4px;
+
+    width: 8px;
+    height: 8px;
+
+    background-color: $light-green;
+  }
+  &__item {
+    display: inline-block;
+
+    margin-right: 10px;
+    margin-bottom: 15px;
+    padding: 5px 10px 3px;
+
+    transition: all .4s ease-in-out;
+
+    color: #919191;
+    border: 1px solid $light-green;
+    border-radius: 10px;
+
+    font-size: rem-calc(14);
+    &:hover {
+      color: $white;
+      background-color: $light-green;
+    }
+  }
+}
+
+.blog-entrie-social {
+  &__item {
+    display: inline-block;
+
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+
+    transition: all .4s ease-in-out;
+    text-align: center;
+    vertical-align: middle;
+
+    color: $light-green;
+    border: 2px solid $light-green;
+    border-radius: 50%;
+
+    font-size: rem-calc(14);
+    line-height: rem-calc(30);
+    &:hover {
+      color: $white;
+      background-color: $light-green;
+    }
+    &--fb {
+      line-height: rem-calc(32);
+    }
+  }
+}

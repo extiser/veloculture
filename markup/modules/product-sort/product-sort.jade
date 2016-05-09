@@ -5,6 +5,17 @@ mixin product-sort
         .product-sort__showed Показаны 1-12 из 30 товаров
 
       .columns.text-right
-        .product-sort__by Сортировать по
-          span Названию
-            i.icon-down-open-mini
+        .row.align-middle
+          .columns
+            .product-sort-viewed Вид
+              a(href="#" title="").product-sort-viewed__item 12
+              a(href="#" title="").product-sort-viewed__item 24
+              a(href="#" title="").product-sort-viewed__item Все
+          .columns.shrink
+            .product-sort-by Сортировать по
+              span Названию
+                i.icon-down-open-mini
+              .product-sort-by-drop
+                a(href="#" title="").product-sort-by-drop__item Названию
+                a(href="#" title="").product-sort-by-drop__item Цене
+                a(href="#" title="").product-sort-by-drop__item Пополярности

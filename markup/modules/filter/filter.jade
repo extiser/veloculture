@@ -1,4 +1,4 @@
-mixin filter
+mixin filter(page)
   .filter
     .filter__title категории
    
@@ -19,241 +19,122 @@ mixin filter
             .columns
               input(type="text" disabled).slider-output__item#sliderOutput2
 
+    - if (page == 'accessories')
+      .filter-block
+        .filter-block__title Тип продукции
+
+        .custom-scroll(style="height: 230px")
+          +checkbox('product-type', 'Цветы на руль')
+          +checkbox('product-type', 'Рули')
+          +checkbox('product-type', 'Клаксоны')
+          +checkbox('product-type', 'Педали')
+          +checkbox('product-type', 'Флягодержатели')
+          +checkbox('product-type', 'Покрышки')
+          +checkbox('product-type', 'Подседельные зажимы')
+          +checkbox('product-type', 'Сумки')
+          +checkbox('product-type', 'Детские кресла')
+          +checkbox('product-type', 'Грипсы')
+          +checkbox('product-type', 'Очиститель втулки')
+          +checkbox('product-type', 'Вкладыши')
+          +checkbox('product-type', 'Ватрушки')
+          +checkbox('product-type', 'Футболки')
+          +checkbox('product-type', 'Фонари')
+          +checkbox('product-type', 'Шлема')
+          +checkbox('product-type', 'Корзинки')
+          +checkbox('product-type', 'Ленты на руль')
+          +checkbox('product-type', 'Седла')
+          +checkbox('product-type', 'Колпачки')
+          +checkbox('product-type', 'Чехлы')
+          +checkbox('product-type', 'Крылья')
+          +checkbox('product-type', 'Наклейки')
+          +checkbox('product-type', 'Багажники')
+          +checkbox('product-type', 'Звонки')
+          +checkbox('product-type', 'Звезды')
+          +checkbox('product-type', 'Зеркала')
+
     .filter-block
       .filter-block__title Бренды
 
-      .checkbox
-        label
-          i.icon.icon-circle-o
-          input(type="checkbox" name="brand" value="Electra")
-          span Electra
+      .custom-scroll(style="height: 170px")
+        +checkbox('brand', 'Electra')
+        +checkbox('brand', 'Creme')
+        +checkbox('brand', 'Electra')
+        +checkbox('brand', 'Schwinn')
+        +checkbox('brand', 'Pashley')
+        +checkbox('brand', 'Erenpreiss')
+        +checkbox('brand', 'Giant')
+        +checkbox('brand', 'Shulz')
+        +checkbox('brand', 'Strida')
+        +checkbox('brand', 'SaintVelo')
+        +checkbox('brand', 'Fuji')
+        +checkbox('brand', 'Polo&Bike')
+    
+    - if (page != 'accessories')
+      .filter-block
+        .filter-block__title ЦВЕТ
 
-      .checkbox
-        label
-          i.icon.icon-circle-o
-          input(type="checkbox" name="brand" value="Creme")
-          span Creme
+        .custom-scroll(style="height: 80px")
+          .row
+            .columns.shrink
+              +checkbox-colored('color', 'black', 'Черный')
+              +checkbox-colored('color', 'gray', 'Серый')
+              +checkbox-colored('color', 'white', 'Белый')
+              +checkbox-colored('color', 'red', 'Красный')
+              +checkbox-colored('color', 'green', 'Зеленый')
+            .columns.shrink
+              +checkbox-colored('color', 'orange', 'Оранжевый')
+              +checkbox-colored('color', 'yellow', 'Желтый')
+              +checkbox-colored('color', 'lime', 'Салатовый')
+              +checkbox-colored('color', 'turquoise', 'Бирюзовый')
+              +checkbox-colored('color', 'blue', 'Синий')
 
-      .checkbox
-        label
-          i.icon.icon-circle-o
-          input(type="checkbox" name="brand" value="PoloandBike")
-          span PoloandBike
+      .filter-block
+        .filter-block__title Возраст
 
-      .checkbox
-        label
-          i.icon.icon-circle-o
-          input(type="checkbox" name="brand" value="Schwinn")
-          span Schwinn
+        .row
+          .columns.shrink
+            +checkbox('age', 'Детский')
+            +checkbox('age', 'Подростковый')
+            +checkbox('age', 'Взрослый')
 
-      .checkbox
-        label
-          i.icon.icon-circle-o
-          input(type="checkbox" name="brand" value="Linus")
-          span Linus
+      .filter-block
+        .filter-block__title Размер рамы
 
-      .checkbox
-        label 
-          i.icon.icon-circle-o
-          input(type="checkbox" name="brand" value="Nerve")
-          span Nerve
+        +checkbox('frame-size', 'XS').checkbox--text
+        +checkbox('frame-size', 'S').checkbox--text
+        +checkbox('frame-size', 'M').checkbox--text
+        +checkbox('frame-size', 'L').checkbox--text
+        +checkbox('frame-size', 'XL').checkbox--text
+        +checkbox('frame-size', 'XXL').checkbox--text
 
-    .filter-block
-      .filter-block__title ЦВЕТ
+      .filter-block
+        .filter-block__title Размер колес
 
-      .row
-        .columns
-          .checkbox.checkbox--colored
-            label
-              i.icon.icon--black
-              input(type="checkbox" name="color" value="black")
-              span Черный
+        +checkbox('wheel-size', '10').checkbox--text
+        +checkbox('wheel-size', '12').checkbox--text
+        +checkbox('wheel-size', '16').checkbox--text
+        +checkbox('wheel-size', '18').checkbox--text
+        +checkbox('wheel-size', '20').checkbox--text
+        +checkbox('wheel-size', '24').checkbox--text
+        +checkbox('wheel-size', '26').checkbox--text
+        +checkbox('wheel-size', '28').checkbox--text
+        +checkbox('wheel-size', '29').checkbox--text
 
-          .checkbox.checkbox--colored
-            label
-              i.icon.icon--gray
-              input(type="checkbox" name="color" value="gray")
-              span Серый
+      .filter-block
+        .filter-block__title Количество скоростей
 
-          .checkbox.checkbox--colored
-            label
-              i.icon.icon--white
-              input(type="checkbox" name="color" value="white")
-              span Белый
+        +checkbox('number-of-speeds', '3i').checkbox--text
+        +checkbox('number-of-speeds', '5i').checkbox--text
+        +checkbox('number-of-speeds', '7i').checkbox--text
+        +checkbox('number-of-speeds', '8i').checkbox--text
+        +checkbox('number-of-speeds', '7D').checkbox--text
+        +checkbox('number-of-speeds', '8D').checkbox--text
+        +checkbox('number-of-speeds', '21D').checkbox--text
+        +checkbox('number-of-speeds', '24D').checkbox--text
 
-          .checkbox.checkbox--colored
-            label
-              i.icon.icon--red
-              input(type="checkbox" name="color" value="red")
-              span Красный
-        .columns
-          .checkbox.checkbox--colored
-            label
-              i.icon.icon--orange
-              input(type="checkbox" name="color" value="orange")
-              span Оранжевый
+      .filter-block
+        .filter-block__title Система передач
 
-          .checkbox.checkbox--colored
-            label
-              i.icon.icon--yellow
-              input(type="checkbox" name="color" value="yellow")
-              span Желтый
-
-          .checkbox.checkbox--colored
-            label
-              i.icon.icon--green
-              input(type="checkbox" name="color" value="green")
-              span Зеленый
-
-          .checkbox.checkbox--colored
-            label
-              i.icon.icon--blue
-              input(type="checkbox" name="color" value="blue")
-              span Синий
-
-    .filter-block
-      .filter-block__title Возраст
-
-      .row
-        .columns.shrink
-          .checkbox
-            label
-              i.icon.icon-circle-o
-              input(type="checkbox" name="age" value="Детский")
-              span Детский
-          .checkbox
-            label
-              i.icon.icon-circle-o
-              input(type="checkbox" name="age" value="Подростковый")
-              span Подростковый
-        .columns
-          .checkbox
-            label
-              i.icon.icon-circle-o
-              input(type="checkbox" name="age" value="Взрослый")
-              span Взрослый
-
-    .filter-block
-      .filter-block__title Возраст
-
-      .checkbox.checkbox--text
-        label
-          input(type="checkbox" name="age" value="XS")
-          span XS
-      .checkbox.checkbox--text
-        label
-          input(type="checkbox" name="age" value="S")
-          span S
-      .checkbox.checkbox--text
-        label
-          input(type="checkbox" name="age" value="M")
-          span M
-      .checkbox.checkbox--text
-        label
-          input(type="checkbox" name="age" value="L")
-          span L
-      .checkbox.checkbox--text
-        label
-          input(type="checkbox" name="age" value="XL")
-          span XL
-      .checkbox.checkbox--text
-        label
-          input(type="checkbox" name="age" value="XXL")
-          span XXL
-
-    .filter-block
-      .filter-block__title Размер колес
-
-      .checkbox.checkbox--text
-        label
-          input(type="checkbox" name="wheel-size" value="10")
-          span 10
-      .checkbox.checkbox--text
-        label
-          input(type="checkbox" name="wheel-size" value="12")
-          span 12
-      .checkbox.checkbox--text
-        label
-          input(type="checkbox" name="wheel-size" value="16")
-          span 16
-      .checkbox.checkbox--text
-        label
-          input(type="checkbox" name="wheel-size" value="18")
-          span 18
-      .checkbox.checkbox--text
-        label
-          input(type="checkbox" name="wheel-size" value="20")
-          span 20
-      .checkbox.checkbox--text
-        label
-          input(type="checkbox" name="wheel-size" value="24")
-          span 24
-      .checkbox.checkbox--text
-        label
-          input(type="checkbox" name="wheel-size" value="26")
-          span 26
-      .checkbox.checkbox--text
-        label
-          input(type="checkbox" name="wheel-size" value="28")
-          span 28
-      .checkbox.checkbox--text
-        label
-          input(type="checkbox" name="wheel-size" value="29")
-          span 29
-
-    .filter-block
-      .filter-block__title Количество скоростей
-
-      .checkbox.checkbox--text
-        label
-          input(type="checkbox" name="wheel-size" value="3i")
-          span 3i
-      .checkbox.checkbox--text
-        label
-          input(type="checkbox" name="wheel-size" value="5i")
-          span 5i
-      .checkbox.checkbox--text
-        label
-          input(type="checkbox" name="wheel-size" value="7i")
-          span 7i
-      .checkbox.checkbox--text
-        label
-          input(type="checkbox" name="wheel-size" value="8i")
-          span 8i
-      .checkbox.checkbox--text
-        label
-          input(type="checkbox" name="wheel-size" value="7D")
-          span 7D
-      .checkbox.checkbox--text
-        label
-          input(type="checkbox" name="wheel-size" value="8D")
-          span 8D
-      .checkbox.checkbox--text
-        label
-          input(type="checkbox" name="wheel-size" value="21D")
-          span 21D
-      .checkbox.checkbox--text
-        label
-          input(type="checkbox" name="wheel-size" value="24D")
-          span 24D
-
-    .filter-block
-      .filter-block__title Система передач
-
-      .checkbox
-        label
-          i.icon.icon-circle-o
-          input(type="checkbox" name="brand" value="планетарная втулка")
-          span планетарная втулка
-
-      .checkbox
-        label
-          i.icon.icon-circle-o
-          input(type="checkbox" name="brand" value="классическая система")
-          span классическая система
-
-      .checkbox
-        label
-          i.icon.icon-circle-o
-          input(type="checkbox" name="brand" value="односкоростная")
-          span односкоростная
+        +checkbox('transmission-system', value="планетарная втулка")
+        +checkbox('transmission-system', value="классическая система")
+        +checkbox('transmission-system', value="односкоростная")
