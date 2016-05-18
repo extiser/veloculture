@@ -12,5 +12,7 @@ $('.product-images-small').slick({
   dots: false,
   centerMode: false,
   focusOnSelect: true,
-  arrows: false
+  arrows: true,
+  prevArrow: '<button class="product-images-small__control product-images-small__control--previous"><i class="icon-angle-left"></i></button>',
+  nextArrow: '<button class="product-images-small__control product-images-small__control--next"><i class="icon-angle-right"></i></button>'
 });

@@ -6,12 +6,23 @@ mixin product-tabs
           .tabs-title.is-active.product-tabs-control__item
             a(href="#panel1" aria-selected="true") Описание
         .columns.shrink
-          .tabs-title.product-tabs-control__item.product-tabs-control__item--last
+          .tabs-title.product-tabs-control__item
             a(href="#panel2" aria-selected="true") Характеристики
+        .columns.shrink
+          .tabs-title.product-tabs-control__item
+            a(href="#panel3" aria-selected="true" onclick="$('.product-tabs-content-slider').slick();") Аксессуары
+        .columns.shrink
+          .tabs-title.product-tabs-control__item
+            a(href="#panel4" aria-selected="true") Похожие модели
+        .columns.shrink
+          .tabs-title.product-tabs-control__item.product-tabs-control__item--last
+            a(href="#panel5" aria-selected="true") Отзывы
 
   .product-tabs-content.tabs-content(data-tabs-content="product-tabs")
-    .product-tabs-content__item.tabs-panel.is-active(id="panel1")
+    //- panel1
+    .product-tabs-content__item.tabs-panel(id="panel1").is-active
       p Electra Cruiser Lux Fat Tire - самая громкая премьера коллекции 2016 года! Главное отличительное достоинство этого badboy байка – экстра-толстые покрышки 26"х3,5", которые буквально несут вас над землей. Мечтали прокатиться на облаке? – нет ничего проще!
+    //- panel 2
     .product-tabs-content__item.tabs-panel(id="panel2")
       .row
         .columns
@@ -36,3 +47,37 @@ mixin product-tabs
             tr
               td Передняя втулка
               td Алюминиевая
+    //- panel3
+    .product-tabs-content__item.tabs-panel(id="panel3")
+      .row
+        .columns
+          +accessories-block
+        .columns
+          +accessories-block
+        .columns
+          +accessories-block
+        .columns
+          +accessories-block
+
+    //- panel4
+    .product-tabs-content__item.tabs-panel(id="panel4")
+      .row
+        .columns
+          +product
+        .columns
+          +product
+        .columns
+          +product
+        .columns
+          +product
+    //- panel5
+    .product-tabs-content__item.tabs-panel(id="panel5")
+      .comments-answer
+        .row.align-middle
+          .columns.shrink
+            .comments-answer__img
+              img(src="http://placehold.it/77x77&text=image")
+          .columns
+            .comments-answer__content
+              .comments-answer__name Аня Моторкина
+              .comments-answer__text Praesent at tellus non sem finibus interdum sit amet non tortor. In hac habitasse platea dictumst. Aenean sodales purus ex. Etiam finibus augue sed risus semper euismod. Donec at luctus mi. Donec volutpat tortor nec faucibus lacinia. Nam auctor pellentesque felis, eu iaculis. Praesent at tellus non sem finibus interdum sit amet non tortor. In hac habitasse platea dictumst. Aenean sodales purus ex. Etiam finibus augue sed risus semper euismod. Donec at luctus mi. Donec volutpat tortor nec faucibus lacinia. Nam auctor pellentesque felis, eu iaculis.

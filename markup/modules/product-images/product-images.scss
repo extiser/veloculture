@@ -19,4 +19,55 @@
       border: 1px solid $light-green;
     }
   }
+  &:hover {
+    .product-images-small__control {
+      display: block !important;
+    }
+  }
+  &__control {
+    position: absolute;
+    z-index: 9;
+
+    display: none !important;
+
+    box-sizing: border-box;
+    width: 57px;
+    height: 57px;
+
+    color: $white;
+    border: 2px solid $white;
+    border-radius: 50%;
+
+    font-size: rem-calc(44);
+
+    @include breakpoint(small) {
+      width: 22px;
+      height: 22px;
+
+      font-size: rem-calc(12);
+    }
+    @include breakpoint(xlarge) {
+      width: 27px;
+      height: 27px;
+
+      font-size: rem-calc(14);
+    }
+    @include vertical-center;
+    &--previous {
+      left: 15px;
+      i {
+        left: 4px;
+      }
+    }
+    &--next {
+      right: 15px;
+      i {
+        right: 4px;
+      }
+    }
+    i {
+      position: absolute;
+      top: 4px;
+    }
+  }
 }

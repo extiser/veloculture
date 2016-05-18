@@ -1,0 +1,45 @@
+.test-drive {
+  margin-top: 40px;
+  padding: 10px;
+
+  border: 2px solid #d0f2a7;
+  &__wrapper {
+    position: relative;
+
+    box-sizing: border-box;
+    min-height: 260px;
+
+    text-align: center;
+
+    border: 2px solid #9dd95e;
+  }
+  &__content {
+    @include absolute-center;
+    &:before {
+      position: relative;
+
+      display: block;
+
+      margin-bottom: 15px;
+
+      content: "";
+
+      @include bg($test-drive);
+    }
+  }
+  &__title {
+    text-transform: uppercase;
+
+    color: #666;
+
+    font-family: $GothamProBold;
+    font-size: rem-calc(14);
+    line-height: 1;
+    &--big {
+      font-size: rem-calc(18);
+    }
+  }
+  &__button {
+    margin-top: 15px;
+  }
+}

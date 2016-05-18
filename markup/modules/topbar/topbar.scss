@@ -59,6 +59,8 @@
   &__clear {
     margin-top: 15px;
 
+    line-height: 36px !important;
+
     @extend .top-bar-basket-pop__basket;
   }
 }
@@ -113,7 +115,7 @@
 .top-bar-menu-drop {
   position: absolute;
   z-index: 99;
-  top: 121px;
+  top: 122px;
   left: 0;
 
   display: none;
@@ -261,7 +263,7 @@
 
     border-radius: 15px;
 
-    line-height: 34px;
+    line-height: 36px;
   }
 }
 
